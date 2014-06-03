@@ -5271,15 +5271,3 @@ th.hide-for-touch {
 
 .touch th.show-for-touch {
   display: table-cell !important; }
-
-.conent-area
-{
-  background-color: $green;
-  padding: 4em 0;
-  border-bottom: 2px solid #444;
-}
-
-.conent-area:nth-of-type(odd)
-{ 
-  background-color: $orange;
-}

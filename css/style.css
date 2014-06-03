@@ -8451,18 +8451,6 @@ th.hide-for-touch {
   display: table-cell !important;
 }
 
-/* line 5276, ../scss/_foundation.scss */
-.conent-area {
-  background-color: #7e8600;
-  padding: 4em 0;
-  border-bottom: 2px solid #444;
-}
-
-/* line 5283, ../scss/_foundation.scss */
-.conent-area:nth-of-type(odd) {
-  background-color: #e35500;
-}
-
 /* normalize.css v3.0.0 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -8895,4 +8883,105 @@ table {
 td,
 th {
   padding: 0;
+}
+
+/* line 2, ../scss/_custom.scss */
+.content-area:nth-of-type(1) {
+  background-color: red;
+}
+
+/* line 7, ../scss/_custom.scss */
+.content-area {
+  background: #879300;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #879300 0%, #6b6300 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #879300), color-stop(100%, #6b6300));
+  /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, #879300 0%, #6b6300 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, #879300 0%, #6b6300 100%);
+  /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, #879300 0%, #6b6300 100%);
+  /* IE10+ */
+  background: radial-gradient(ellipse at center, #879300 0%, #6b6300 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#879300', endColorstr='#6b6300',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+  padding: 4em 0;
+  border-bottom: 2px solid #444;
+}
+
+/* line 25, ../scss/_custom.scss */
+.content-area:nth-of-type(odd) {
+  background: #ed6200;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #ed6200 0%, #d64e00 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #ed6200), color-stop(100%, #d64e00));
+  /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, #ed6200 0%, #d64e00 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, #ed6200 0%, #d64e00 100%);
+  /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, #ed6200 0%, #d64e00 100%);
+  /* IE10+ */
+  background: radial-gradient(ellipse at center, #ed6200 0%, #d64e00 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed6200', endColorstr='#d64e00',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+/* line 37, ../scss/_custom.scss */
+.content-area:nth-of-type(1) {
+  background: #323232;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #323232 0%, #222222 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #323232), color-stop(100%, #222222));
+  /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, #323232 0%, #222222 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, #323232 0%, #222222 100%);
+  /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, #323232 0%, #222222 100%);
+  /* IE10+ */
+  background: radial-gradient(ellipse at center, #323232 0%, #222222 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#323232', endColorstr='#222222',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+  color: #fff;
+  padding: 1em 0;
+}
+
+/* line 52, ../scss/_custom.scss */
+.content-area {
+  color: #fff;
+}
+/* line 56, ../scss/_custom.scss */
+.content-area h1 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: bold;
+  color: #333;
+  color: #fff;
+  font-size: 5.25em;
+  font-variant: small-caps;
+  line-height: 1em;
+  color: #e35500;
+}
+/* line 68, ../scss/_custom.scss */
+.content-area h2 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 3em;
+  color: #333;
+}
+/* line 76, ../scss/_custom.scss */
+.content-area h5 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 1.75em;
+  color: #fff;
+  font-weight: 300;
 }
