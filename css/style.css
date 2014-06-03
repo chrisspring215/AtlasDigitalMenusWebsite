@@ -8886,12 +8886,44 @@ th {
 }
 
 /* line 2, ../scss/_custom.scss */
-.content-area:nth-of-type(1) {
-  background-color: red;
+.main-content-area {
+  background: #879300;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #879300 0%, #6b6300 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #879300), color-stop(100%, #6b6300));
+  /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, #879300 0%, #6b6300 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, #879300 0%, #6b6300 100%);
+  /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, #879300 0%, #6b6300 100%);
+  /* IE10+ */
+  background: radial-gradient(ellipse at center, #879300 0%, #6b6300 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#879300', endColorstr='#6b6300',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+  color: #fff;
 }
-
-/* line 7, ../scss/_custom.scss */
-.content-area {
+/* line 16, ../scss/_custom.scss */
+.main-content-area .home-page-main-header {
+  display: block;
+  color: #e35500;
+  text-shadow: 1px 1px 0px #eeeeee, -1px -1px 0px #eeeeee, 1px -1px 0px #eeeeee, -1px 1px 0px #eeeeee;
+  font-size: 8.5em;
+  padding: 0;
+}
+/* line 25, ../scss/_custom.scss */
+.main-content-area .main-header {
+  background: url(../img/background-image.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-bottom: 2px solid #444;
+}
+/* line 36, ../scss/_custom.scss */
+.main-content-area .content-area {
   background: #879300;
   /* Old browsers */
   background: -moz-radial-gradient(center, ellipse cover, #879300 0%, #6b6300 100%);
@@ -8911,9 +8943,8 @@ th {
   padding: 4em 0;
   border-bottom: 2px solid #444;
 }
-
-/* line 25, ../scss/_custom.scss */
-.content-area:nth-of-type(odd) {
+/* line 50, ../scss/_custom.scss */
+.main-content-area .content-area:nth-of-type(odd) {
   background: #ed6200;
   /* Old browsers */
   background: -moz-radial-gradient(center, ellipse cover, #ed6200 0%, #d64e00 100%);
@@ -8931,9 +8962,8 @@ th {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed6200', endColorstr='#d64e00',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
 }
-
-/* line 37, ../scss/_custom.scss */
-.content-area:nth-of-type(1) {
+/* line 62, ../scss/_custom.scss */
+.main-content-area .content-area:nth-of-type(1) {
   background: #323232;
   /* Old browsers */
   background: -moz-radial-gradient(center, ellipse cover, #323232 0%, #222222 100%);
@@ -8953,13 +8983,8 @@ th {
   color: #fff;
   padding: 1em 0;
 }
-
-/* line 52, ../scss/_custom.scss */
-.content-area {
-  color: #fff;
-}
-/* line 56, ../scss/_custom.scss */
-.content-area h1 {
+/* line 77, ../scss/_custom.scss */
+.main-content-area h1 {
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: bold;
   color: #333;
@@ -8969,15 +8994,17 @@ th {
   line-height: 1em;
   color: #e35500;
 }
-/* line 68, ../scss/_custom.scss */
-.content-area h2 {
+/* line 89, ../scss/_custom.scss */
+.main-content-area h2 {
   font-family: "Open Sans Condensed", sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 3em;
   color: #333;
+  font-variant: small-caps;
+  line-height: 1em;
 }
-/* line 76, ../scss/_custom.scss */
-.content-area h5 {
+/* line 99, ../scss/_custom.scss */
+.main-content-area h5 {
   font-family: "Open Sans Condensed", sans-serif;
   font-variant: small-caps;
   font-weight: bold;
