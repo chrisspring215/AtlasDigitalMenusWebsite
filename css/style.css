@@ -8906,6 +8906,14 @@ th {
   color: #fff;
 }
 /* line 16, ../scss/_custom.scss */
+.main-content-area .home-page-selling-points ul {
+  margin: 0;
+}
+/* line 21, ../scss/_custom.scss */
+.main-content-area .home-page-selling-points ul li {
+  list-style-type: none;
+}
+/* line 27, ../scss/_custom.scss */
 .main-content-area .home-page-main-header {
   display: block;
   color: #e35500;
@@ -8913,7 +8921,7 @@ th {
   font-size: 8.5em;
   padding: 0;
 }
-/* line 25, ../scss/_custom.scss */
+/* line 36, ../scss/_custom.scss */
 .main-content-area .main-header {
   background: url(../img/background-image.png) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -8922,7 +8930,7 @@ th {
   background-size: cover;
   border-bottom: 2px solid #444;
 }
-/* line 36, ../scss/_custom.scss */
+/* line 46, ../scss/_custom.scss */
 .main-content-area .content-area {
   background: #879300;
   /* Old browsers */
@@ -8943,7 +8951,7 @@ th {
   padding: 4em 0;
   border-bottom: 2px solid #444;
 }
-/* line 50, ../scss/_custom.scss */
+/* line 60, ../scss/_custom.scss */
 .main-content-area .content-area:nth-of-type(odd) {
   background: #ed6200;
   /* Old browsers */
@@ -8962,7 +8970,7 @@ th {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed6200', endColorstr='#d64e00',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
 }
-/* line 62, ../scss/_custom.scss */
+/* line 72, ../scss/_custom.scss */
 .main-content-area .content-area:nth-of-type(1) {
   background: #323232;
   /* Old browsers */
@@ -8983,7 +8991,7 @@ th {
   color: #fff;
   padding: 1em 0;
 }
-/* line 77, ../scss/_custom.scss */
+/* line 86, ../scss/_custom.scss */
 .main-content-area h1 {
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: bold;
@@ -8994,7 +9002,7 @@ th {
   line-height: 1em;
   color: #e35500;
 }
-/* line 89, ../scss/_custom.scss */
+/* line 98, ../scss/_custom.scss */
 .main-content-area h2 {
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: 900;
@@ -9003,7 +9011,7 @@ th {
   font-variant: small-caps;
   line-height: 1em;
 }
-/* line 99, ../scss/_custom.scss */
+/* line 108, ../scss/_custom.scss */
 .main-content-area h5 {
   font-family: "Open Sans Condensed", sans-serif;
   font-variant: small-caps;
