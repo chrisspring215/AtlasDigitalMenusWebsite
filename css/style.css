@@ -8954,30 +8954,35 @@ th {
 .main-content-area {
   color: #333;
 }
-/* line 67, ../scss/_custom.scss */
+/* line 65, ../scss/_custom.scss */
+.main-content-area img {
+  width: 100%;
+  margin-bottom: 2em;
+}
+/* line 73, ../scss/_custom.scss */
 .main-content-area .home-page-selling-points h2 {
   font-size: 3em;
   margin-bottom: .15em;
 }
-/* line 73, ../scss/_custom.scss */
+/* line 79, ../scss/_custom.scss */
 .main-content-area .home-page-selling-points ul {
   margin: 0;
   padding: 0 0 1.25em 0;
 }
-/* line 79, ../scss/_custom.scss */
+/* line 85, ../scss/_custom.scss */
 .main-content-area .home-page-selling-points ul li {
   list-style-type: none;
   padding: 0 0 1.5em 0;
   font-size: 1.25em;
 }
-/* line 87, ../scss/_custom.scss */
+/* line 93, ../scss/_custom.scss */
 .main-content-area .home-page-main-header {
   display: block;
   color: white;
   font-size: 2.5em;
   padding: 0;
 }
-/* line 95, ../scss/_custom.scss */
+/* line 101, ../scss/_custom.scss */
 .main-content-area .main-header {
   background: #ed6200;
   /* Old browsers */
@@ -8997,12 +9002,12 @@ th {
   /* IE6-9 fallback on horizontal gradient */
   border-bottom: 2px solid #666;
 }
-/* line 108, ../scss/_custom.scss */
+/* line 114, ../scss/_custom.scss */
 .main-content-area .content-area {
   padding: 2em 0;
   border-bottom: 2px solid #ccc;
 }
-/* line 114, ../scss/_custom.scss */
+/* line 120, ../scss/_custom.scss */
 .main-content-area .secondary-header {
   background: #323232;
   /* Old browsers */
@@ -9023,12 +9028,13 @@ th {
   color: #fff;
   padding: 1em;
 }
-/* line 128, ../scss/_custom.scss */
+/* line 134, ../scss/_custom.scss */
 .main-content-area .secondary-header h2 {
   font-size: 1.5em;
   color: white;
+  line-height: 1.3em;
 }
-/* line 136, ../scss/_custom.scss */
+/* line 143, ../scss/_custom.scss */
 .main-content-area h1 {
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: bold;
@@ -9039,7 +9045,7 @@ th {
   line-height: 1em;
   color: #e35500;
 }
-/* line 148, ../scss/_custom.scss */
+/* line 155, ../scss/_custom.scss */
 .main-content-area h2 {
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: 900;
@@ -9050,7 +9056,7 @@ th {
   */
   line-height: 1em;
 }
-/* line 160, ../scss/_custom.scss */
+/* line 167, ../scss/_custom.scss */
 .main-content-area h5 {
   font-family: "Open Sans Condensed", sans-serif;
   /*
@@ -9061,7 +9067,7 @@ th {
   color: #fff;
   font-weight: 300;
 }
-/* line 174, ../scss/_custom.scss */
+/* line 181, ../scss/_custom.scss */
 .main-content-area .callout h3 {
   font-weight: 300;
   font-family: "Open Sans Condensed", sans-serif;
@@ -9069,7 +9075,7 @@ th {
   font-size: 1.75em;
 }
 
-/* line 184, ../scss/_custom.scss */
+/* line 191, ../scss/_custom.scss */
 .black {
   background: #323232;
   /* Old browsers */
@@ -9092,48 +9098,48 @@ th {
 /* MEDIUM STYLES */
 @media only screen and (min-width: 40.063em) {
   /* min-width 641px, medium screens */
-  /* line 199, ../scss/_custom.scss */
+  /* line 206, ../scss/_custom.scss */
   .logo {
     width: 25%;
     margin-top: -0.25em;
   }
 
-  /* line 205, ../scss/_custom.scss */
+  /* line 212, ../scss/_custom.scss */
   .header-button {
     margin-bottom: 2.75em;
   }
 
-  /* line 213, ../scss/_custom.scss */
+  /* line 220, ../scss/_custom.scss */
   .main-content-area .home-page-main-header {
     font-size: 5em;
   }
-  /* line 223, ../scss/_custom.scss */
+  /* line 230, ../scss/_custom.scss */
   .main-content-area .content-area {
     padding: 3em 0;
   }
-  /* line 228, ../scss/_custom.scss */
+  /* line 235, ../scss/_custom.scss */
   .main-content-area .secondary-header {
     padding: 1em;
   }
-  /* line 232, ../scss/_custom.scss */
+  /* line 239, ../scss/_custom.scss */
   .main-content-area .secondary-header h2 {
     font-size: 2.5em;
   }
-  /* line 239, ../scss/_custom.scss */
+  /* line 246, ../scss/_custom.scss */
   .main-content-area .content-area:nth-of-type(1) {
     padding: 1em 0;
   }
-  /* line 244, ../scss/_custom.scss */
+  /* line 251, ../scss/_custom.scss */
   .main-content-area h1 {
     font-size: 3em;
     line-height: 1em;
   }
-  /* line 250, ../scss/_custom.scss */
+  /* line 257, ../scss/_custom.scss */
   .main-content-area h2 {
     font-size: 3em;
     line-height: 1em;
   }
-  /* line 256, ../scss/_custom.scss */
+  /* line 263, ../scss/_custom.scss */
   .main-content-area h5 {
     font-size: 1.75em;
   }
@@ -9141,52 +9147,52 @@ th {
 /* END Medium Styes */
 /* Large Screen Styles */
 @media only screen and (min-width: 64.063em) {
-  /* line 268, ../scss/_custom.scss */
+  /* line 275, ../scss/_custom.scss */
   .header-button {
     margin-bottom: 3.5em;
     padding: 1em;
     font-size: 1.25em;
   }
 
-  /* line 279, ../scss/_custom.scss */
+  /* line 286, ../scss/_custom.scss */
   .main-content-area .home-page-selling-points ul {
     margin: 0;
   }
-  /* line 285, ../scss/_custom.scss */
+  /* line 292, ../scss/_custom.scss */
   .main-content-area .home-page-main-header {
     font-size: 6.5em;
   }
-  /* line 292, ../scss/_custom.scss */
+  /* line 299, ../scss/_custom.scss */
   .main-content-area .content-area {
     padding: 4em 0;
   }
-  /* line 296, ../scss/_custom.scss */
+  /* line 303, ../scss/_custom.scss */
   .main-content-area .content-area p {
     font-size: 1.25em;
   }
-  /* line 302, ../scss/_custom.scss */
+  /* line 309, ../scss/_custom.scss */
   .main-content-area .secondary-header {
     padding: 3em;
   }
-  /* line 306, ../scss/_custom.scss */
+  /* line 313, ../scss/_custom.scss */
   .main-content-area .secondary-header h2 {
     font-size: 3em;
   }
-  /* line 317, ../scss/_custom.scss */
+  /* line 324, ../scss/_custom.scss */
   .main-content-area .content-area:nth-of-type(1) {
     padding: 1em 0;
   }
-  /* line 322, ../scss/_custom.scss */
+  /* line 329, ../scss/_custom.scss */
   .main-content-area h1 {
     font-size: 5.25em;
     line-height: 1em;
   }
-  /* line 328, ../scss/_custom.scss */
+  /* line 335, ../scss/_custom.scss */
   .main-content-area h2 {
     font-size: 3em;
     line-height: 1em;
   }
-  /* line 334, ../scss/_custom.scss */
+  /* line 341, ../scss/_custom.scss */
   .main-content-area h5 {
     font-size: 1.75em;
   }
