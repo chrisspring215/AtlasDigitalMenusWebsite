@@ -8951,38 +8951,87 @@ th {
 }
 
 /* line 60, ../scss/_custom.scss */
+.home-page, .specials-page, .category-page, .item-detail-page, .remembered-page {
+  -webkit-transition: background-image 250ms ease-out 250ms;
+  -moz-transition: background-image 250ms ease-out 250ms;
+  -o-transition: background-image 250ms ease-out 250ms;
+  transition: background-image 250ms ease-out 250ms;
+  background-size: 227px, 318px;
+  width: 227px;
+  height: 318px;
+}
+
+/* line 71, ../scss/_custom.scss */
+.home-page {
+  background-image: url(../img/home-page.png);
+}
+
+/* line 76, ../scss/_custom.scss */
+.specials-page {
+  background-image: url(../img/specials-page.png);
+}
+
+/* line 81, ../scss/_custom.scss */
+.category-page {
+  background-image: url(../img/category-page.png);
+}
+
+/* line 86, ../scss/_custom.scss */
+.item-detail-page {
+  background-image: url(../img/item-detail.png);
+}
+
+/* line 91, ../scss/_custom.scss */
+.remembered-page {
+  background-image: url(../img/remembered-items.png);
+}
+
+/* line 96, ../scss/_custom.scss */
+.screenshot:hover {
+  -webkit-transition: background-image 250ms ease-out 250ms;
+  -moz-transition: background-image 250ms ease-out 250ms;
+  -o-transition: background-image 250ms ease-out 250ms;
+  transition: background-image 250ms ease-out 250ms;
+  background-image: url(../img/enlarge-screenshot.jpg);
+  background-size: 227px, 318px;
+  border: 1px solid #ccc;
+  background-color: #eee;
+}
+
+/* line 108, ../scss/_custom.scss */
 .main-content-area {
   color: #333;
 }
-/* line 65, ../scss/_custom.scss */
+/* line 113, ../scss/_custom.scss */
 .main-content-area img {
   width: 100%;
-  margin-bottom: 1em;
+  margin-bottom: 0em;
 }
-/* line 73, ../scss/_custom.scss */
+/* line 121, ../scss/_custom.scss */
 .main-content-area .home-page-selling-points h2 {
   font-size: 3em;
   margin-bottom: .15em;
 }
-/* line 79, ../scss/_custom.scss */
+/* line 127, ../scss/_custom.scss */
 .main-content-area .home-page-selling-points ul {
   margin: 0;
   padding: 0 0 1.25em 0;
 }
-/* line 85, ../scss/_custom.scss */
+/* line 133, ../scss/_custom.scss */
 .main-content-area .home-page-selling-points ul li {
   list-style-type: none;
   padding: 0 0 1.5em 0;
-  font-size: 1.25em;
+  font-size: 1.15em;
+  font-weight: 300;
 }
-/* line 93, ../scss/_custom.scss */
+/* line 142, ../scss/_custom.scss */
 .main-content-area .home-page-main-header {
   display: block;
   color: white;
   font-size: 2.5em;
   padding: 0;
 }
-/* line 101, ../scss/_custom.scss */
+/* line 150, ../scss/_custom.scss */
 .main-content-area .main-header {
   background: #ed6200;
   /* Old browsers */
@@ -9002,12 +9051,17 @@ th {
   /* IE6-9 fallback on horizontal gradient */
   border-bottom: 2px solid #666;
 }
-/* line 114, ../scss/_custom.scss */
+/* line 163, ../scss/_custom.scss */
 .main-content-area .content-area {
   padding: 2em 0;
-  border-bottom: 2px solid #ccc;
+  border-bottom: 2px solid #eee;
 }
-/* line 120, ../scss/_custom.scss */
+/* line 168, ../scss/_custom.scss */
+.main-content-area .content-area p {
+  font-weight: 300;
+  font-size: 1.15em;
+}
+/* line 175, ../scss/_custom.scss */
 .main-content-area .secondary-header {
   background: #323232;
   /* Old browsers */
@@ -9028,13 +9082,13 @@ th {
   color: #fff;
   padding: 1em;
 }
-/* line 134, ../scss/_custom.scss */
+/* line 189, ../scss/_custom.scss */
 .main-content-area .secondary-header h2 {
   font-size: 1.5em;
   color: white;
   line-height: 1.3em;
 }
-/* line 143, ../scss/_custom.scss */
+/* line 198, ../scss/_custom.scss */
 .main-content-area h1 {
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: bold;
@@ -9045,18 +9099,18 @@ th {
   line-height: 1em;
   color: #e35500;
 }
-/* line 155, ../scss/_custom.scss */
+/* line 210, ../scss/_custom.scss */
 .main-content-area h2 {
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: 900;
-  font-size: 2em;
+  font-size: 1.75em;
   color: #e35500;
   /*
   font-variant: small-caps;
   */
-  line-height: 1em;
+  line-height: 1.3em;
 }
-/* line 167, ../scss/_custom.scss */
+/* line 222, ../scss/_custom.scss */
 .main-content-area h5 {
   font-family: "Open Sans Condensed", sans-serif;
   /*
@@ -9067,7 +9121,7 @@ th {
   color: #fff;
   font-weight: 300;
 }
-/* line 181, ../scss/_custom.scss */
+/* line 236, ../scss/_custom.scss */
 .main-content-area .callout h3 {
   font-weight: 300;
   font-family: "Open Sans Condensed", sans-serif;
@@ -9075,7 +9129,7 @@ th {
   font-size: 1.75em;
 }
 
-/* line 191, ../scss/_custom.scss */
+/* line 246, ../scss/_custom.scss */
 .black {
   background: #323232;
   /* Old browsers */
@@ -9098,48 +9152,104 @@ th {
 /* MEDIUM STYLES */
 @media only screen and (min-width: 40.063em) {
   /* min-width 641px, medium screens */
-  /* line 206, ../scss/_custom.scss */
+  /* line 261, ../scss/_custom.scss */
   .logo {
     width: 25%;
     margin-top: -0.25em;
   }
 
-  /* line 212, ../scss/_custom.scss */
+  /* line 267, ../scss/_custom.scss */
   .header-button {
     margin-bottom: 2.75em;
   }
 
-  /* line 220, ../scss/_custom.scss */
+  /* line 272, ../scss/_custom.scss */
+  .home-page, .specials-page, .category-page, .item-detail-page, .remembered-page {
+    -webkit-transition: background-image 250ms ease-out 250ms;
+    -moz-transition: background-image 250ms ease-out 250ms;
+    -o-transition: background-image 250ms ease-out 250ms;
+    transition: background-image 250ms ease-out 250ms;
+    background-size: 227px, 318px;
+    width: 227px;
+    height: 318px;
+  }
+
+  /* line 283, ../scss/_custom.scss */
+  .home-page {
+    background-image: url(../img/home-page.png);
+  }
+
+  /* line 288, ../scss/_custom.scss */
+  .specials-page {
+    background-image: url(../img/specials-page.png);
+  }
+
+  /* line 293, ../scss/_custom.scss */
+  .category-page {
+    background-image: url(../img/category-page.png);
+  }
+
+  /* line 298, ../scss/_custom.scss */
+  .item-detail-page {
+    background-image: url(../img/item-detail.png);
+  }
+
+  /* line 303, ../scss/_custom.scss */
+  .remembered-page {
+    background-image: url(../img/remembered-items.png);
+  }
+
+  /* line 308, ../scss/_custom.scss */
+  .screenshot:hover {
+    -webkit-transition: background-image 250ms ease-out 250ms;
+    -moz-transition: background-image 250ms ease-out 250ms;
+    -o-transition: background-image 250ms ease-out 250ms;
+    transition: background-image 250ms ease-out 250ms;
+    background-image: url(../img/enlarge-screenshot.jpg);
+    background-size: 227px, 318px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+  }
+
+  /* line 325, ../scss/_custom.scss */
   .main-content-area .home-page-main-header {
     font-size: 5em;
   }
-  /* line 230, ../scss/_custom.scss */
+  /* line 332, ../scss/_custom.scss */
+  .main-content-area .home-page-selling-points ul {
+    margin: 0;
+  }
+  /* line 337, ../scss/_custom.scss */
+  .main-content-area .home-page-selling-points ul li {
+    font-size: 1.25em;
+  }
+  /* line 343, ../scss/_custom.scss */
   .main-content-area .content-area {
     padding: 3em 0;
   }
-  /* line 235, ../scss/_custom.scss */
+  /* line 347, ../scss/_custom.scss */
+  .main-content-area .content-area p {
+    font-size: 1.35em;
+  }
+  /* line 353, ../scss/_custom.scss */
   .main-content-area .secondary-header {
     padding: 1em;
   }
-  /* line 239, ../scss/_custom.scss */
+  /* line 357, ../scss/_custom.scss */
   .main-content-area .secondary-header h2 {
     font-size: 2.5em;
   }
-  /* line 246, ../scss/_custom.scss */
-  .main-content-area .content-area:nth-of-type(1) {
-    padding: 1em 0;
-  }
-  /* line 251, ../scss/_custom.scss */
+  /* line 363, ../scss/_custom.scss */
   .main-content-area h1 {
     font-size: 3em;
     line-height: 1em;
   }
-  /* line 257, ../scss/_custom.scss */
+  /* line 369, ../scss/_custom.scss */
   .main-content-area h2 {
     font-size: 3em;
-    line-height: 1em;
+    line-height: 1.3em;
   }
-  /* line 263, ../scss/_custom.scss */
+  /* line 375, ../scss/_custom.scss */
   .main-content-area h5 {
     font-size: 1.75em;
   }
@@ -9147,52 +9257,101 @@ th {
 /* END Medium Styes */
 /* Large Screen Styles */
 @media only screen and (min-width: 64.063em) {
-  /* line 275, ../scss/_custom.scss */
+  /* line 387, ../scss/_custom.scss */
   .header-button {
     margin-bottom: 3.5em;
     padding: 1em;
     font-size: 1.25em;
   }
 
-  /* line 286, ../scss/_custom.scss */
+  /* line 394, ../scss/_custom.scss */
+  .home-page, .specials-page, .category-page, .item-detail-page, .remembered-page {
+    -webkit-transition: background-image 250ms ease-out 250ms;
+    -moz-transition: background-image 250ms ease-out 250ms;
+    -o-transition: background-image 250ms ease-out 250ms;
+    transition: background-image 250ms ease-out 250ms;
+    background-size: 303px, 426px;
+    width: 303px;
+    height: 425px;
+  }
+
+  /* line 405, ../scss/_custom.scss */
+  .home-page {
+    background-image: url(../img/home-page.png);
+  }
+
+  /* line 410, ../scss/_custom.scss */
+  .specials-page {
+    background-image: url(../img/specials-page.png);
+  }
+
+  /* line 415, ../scss/_custom.scss */
+  .category-page {
+    background-image: url(../img/category-page.png);
+  }
+
+  /* line 420, ../scss/_custom.scss */
+  .item-detail-page {
+    background-image: url(../img/item-detail.png);
+  }
+
+  /* line 425, ../scss/_custom.scss */
+  .remembered-page {
+    background-image: url(../img/remembered-items.png);
+  }
+
+  /* line 430, ../scss/_custom.scss */
+  .screenshot:hover {
+    -webkit-transition: background-image 250ms ease-out 250ms;
+    -moz-transition: background-image 250ms ease-out 250ms;
+    -o-transition: background-image 250ms ease-out 250ms;
+    transition: background-image 250ms ease-out 250ms;
+    background-image: url(../img/enlarge-screenshot.jpg);
+    background-size: 303px, 426px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+  }
+
+  /* line 446, ../scss/_custom.scss */
   .main-content-area .home-page-selling-points ul {
     margin: 0;
   }
-  /* line 292, ../scss/_custom.scss */
+  /* line 451, ../scss/_custom.scss */
+  .main-content-area .home-page-selling-points ul li {
+    font-size: 1.5em;
+  }
+  /* line 457, ../scss/_custom.scss */
   .main-content-area .home-page-main-header {
     font-size: 6.5em;
   }
-  /* line 299, ../scss/_custom.scss */
+  /* line 464, ../scss/_custom.scss */
   .main-content-area .content-area {
     padding: 4em 0;
   }
-  /* line 303, ../scss/_custom.scss */
+  /* line 468, ../scss/_custom.scss */
   .main-content-area .content-area p {
-    font-size: 1.25em;
+    font-size: 1.75em;
+    line-height: 1.5em;
   }
-  /* line 309, ../scss/_custom.scss */
+  /* line 475, ../scss/_custom.scss */
   .main-content-area .secondary-header {
     padding: 3em;
   }
-  /* line 313, ../scss/_custom.scss */
+  /* line 479, ../scss/_custom.scss */
   .main-content-area .secondary-header h2 {
     font-size: 3em;
   }
-  /* line 324, ../scss/_custom.scss */
-  .main-content-area .content-area:nth-of-type(1) {
-    padding: 1em 0;
-  }
-  /* line 329, ../scss/_custom.scss */
+  /* line 491, ../scss/_custom.scss */
   .main-content-area h1 {
     font-size: 5.25em;
     line-height: 1em;
   }
-  /* line 335, ../scss/_custom.scss */
+  /* line 497, ../scss/_custom.scss */
   .main-content-area h2 {
     font-size: 3em;
     line-height: 1em;
   }
-  /* line 341, ../scss/_custom.scss */
+  /* line 503, ../scss/_custom.scss */
   .main-content-area h5 {
     font-size: 1.75em;
   }
