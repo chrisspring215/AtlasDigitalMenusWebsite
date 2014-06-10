@@ -9062,17 +9062,23 @@ th {
   /* IE6-9 fallback on horizontal gradient */
   border-bottom: 2px solid #666;
 }
-/* line 176, ../scss/_custom.scss */
+/* line 178, ../scss/_custom.scss */
+.main-content-area .main-header-background {
+  background: url(../img/home-page-background.png);
+  background-repeat: no-repeat;
+  height: 461px;
+}
+/* line 185, ../scss/_custom.scss */
 .main-content-area .content-area {
   padding: 2em 0;
   border-bottom: 2px solid #eee;
 }
-/* line 181, ../scss/_custom.scss */
+/* line 190, ../scss/_custom.scss */
 .main-content-area .content-area p {
   font-weight: 300;
   font-size: 1.15em;
 }
-/* line 188, ../scss/_custom.scss */
+/* line 197, ../scss/_custom.scss */
 .main-content-area .secondary-header {
   background: #323232;
   /* Old browsers */
@@ -9093,13 +9099,13 @@ th {
   color: #fff;
   padding: 1em;
 }
-/* line 202, ../scss/_custom.scss */
+/* line 211, ../scss/_custom.scss */
 .main-content-area .secondary-header h2 {
   font-size: 1.5em;
   color: white;
   line-height: 1.3em;
 }
-/* line 211, ../scss/_custom.scss */
+/* line 220, ../scss/_custom.scss */
 .main-content-area h1 {
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: bold;
@@ -9110,7 +9116,7 @@ th {
   line-height: 1em;
   color: #e35500;
 }
-/* line 223, ../scss/_custom.scss */
+/* line 232, ../scss/_custom.scss */
 .main-content-area h2 {
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: 900;
@@ -9121,7 +9127,7 @@ th {
   */
   line-height: 1.1em;
 }
-/* line 235, ../scss/_custom.scss */
+/* line 244, ../scss/_custom.scss */
 .main-content-area h5 {
   font-family: "Open Sans Condensed", sans-serif;
   /*
@@ -9132,7 +9138,7 @@ th {
   color: #fff;
   font-weight: 300;
 }
-/* line 249, ../scss/_custom.scss */
+/* line 258, ../scss/_custom.scss */
 .main-content-area .callout h3 {
   font-weight: 300;
   font-family: "Open Sans Condensed", sans-serif;
@@ -9140,7 +9146,7 @@ th {
   font-size: 1.75em;
 }
 
-/* line 259, ../scss/_custom.scss */
+/* line 268, ../scss/_custom.scss */
 .black {
   background: #323232;
   /* Old browsers */
@@ -9160,18 +9166,18 @@ th {
   /* IE6-9 fallback on horizontal gradient */
 }
 
-/* line 272, ../scss/_custom.scss */
+/* line 281, ../scss/_custom.scss */
 footer {
   padding: 3em 0 2em 0;
   background-color: #222;
   border-top: 2px solid #eee;
 }
-/* line 278, ../scss/_custom.scss */
+/* line 287, ../scss/_custom.scss */
 footer ul {
   list-style-type: none;
   color: #fff;
 }
-/* line 284, ../scss/_custom.scss */
+/* line 293, ../scss/_custom.scss */
 footer a {
   color: #e35500;
   font-size: 1em;
@@ -9182,18 +9188,18 @@ footer a {
 /* MEDIUM STYLES */
 @media only screen and (min-width: 40.063em) {
   /* min-width 641px, medium screens */
-  /* line 295, ../scss/_custom.scss */
+  /* line 304, ../scss/_custom.scss */
   .logo {
     width: 25%;
     margin-top: -0.25em;
   }
 
-  /* line 301, ../scss/_custom.scss */
+  /* line 310, ../scss/_custom.scss */
   .header-button {
     margin-bottom: 2.75em;
   }
 
-  /* line 306, ../scss/_custom.scss */
+  /* line 315, ../scss/_custom.scss */
   .home-page, .specials-page, .category-page, .item-detail-page, .remembered-page {
     -webkit-transition: background-image 250ms ease-out 250ms;
     -moz-transition: background-image 250ms ease-out 250ms;
@@ -9204,32 +9210,32 @@ footer a {
     height: 318px;
   }
 
-  /* line 317, ../scss/_custom.scss */
+  /* line 326, ../scss/_custom.scss */
   .home-page {
     background-image: url(../img/home-page.png);
   }
 
-  /* line 322, ../scss/_custom.scss */
+  /* line 331, ../scss/_custom.scss */
   .specials-page {
     background-image: url(../img/specials-page.png);
   }
 
-  /* line 327, ../scss/_custom.scss */
+  /* line 336, ../scss/_custom.scss */
   .category-page {
     background-image: url(../img/category-page.png);
   }
 
-  /* line 332, ../scss/_custom.scss */
+  /* line 341, ../scss/_custom.scss */
   .item-detail-page {
     background-image: url(../img/item-detail.png);
   }
 
-  /* line 337, ../scss/_custom.scss */
+  /* line 346, ../scss/_custom.scss */
   .remembered-page {
     background-image: url(../img/remembered-items.png);
   }
 
-  /* line 342, ../scss/_custom.scss */
+  /* line 351, ../scss/_custom.scss */
   .screenshot:hover {
     -webkit-transition: background-image 250ms ease-out 250ms;
     -moz-transition: background-image 250ms ease-out 250ms;
@@ -9241,45 +9247,46 @@ footer a {
     background-color: #eee;
   }
 
-  /* line 357, ../scss/_custom.scss */
+  /* line 366, ../scss/_custom.scss */
   .main-content-area .home-page-main-header {
-    font-size: 5em;
+    font-size: 3em;
+    line-height: 1.3em;
   }
-  /* line 364, ../scss/_custom.scss */
+  /* line 374, ../scss/_custom.scss */
   .main-content-area .home-page-selling-points ul {
     margin: 0;
   }
-  /* line 369, ../scss/_custom.scss */
+  /* line 379, ../scss/_custom.scss */
   .main-content-area .home-page-selling-points ul li {
     font-size: 1.25em;
   }
-  /* line 375, ../scss/_custom.scss */
+  /* line 385, ../scss/_custom.scss */
   .main-content-area .content-area {
     padding: 3em 0;
   }
-  /* line 379, ../scss/_custom.scss */
+  /* line 389, ../scss/_custom.scss */
   .main-content-area .content-area p {
     font-size: 1.35em;
   }
-  /* line 385, ../scss/_custom.scss */
+  /* line 395, ../scss/_custom.scss */
   .main-content-area .secondary-header {
     padding: 1em;
   }
-  /* line 389, ../scss/_custom.scss */
+  /* line 399, ../scss/_custom.scss */
   .main-content-area .secondary-header h2 {
     font-size: 2.5em;
   }
-  /* line 395, ../scss/_custom.scss */
+  /* line 405, ../scss/_custom.scss */
   .main-content-area h1 {
     font-size: 3em;
     line-height: 1em;
   }
-  /* line 401, ../scss/_custom.scss */
+  /* line 411, ../scss/_custom.scss */
   .main-content-area h2 {
     font-size: 3em;
     line-height: 1.2em;
   }
-  /* line 407, ../scss/_custom.scss */
+  /* line 417, ../scss/_custom.scss */
   .main-content-area h5 {
     font-size: 1.75em;
   }
@@ -9287,14 +9294,14 @@ footer a {
 /* END Medium Styes */
 /* Large Screen Styles */
 @media only screen and (min-width: 64.063em) {
-  /* line 419, ../scss/_custom.scss */
+  /* line 429, ../scss/_custom.scss */
   .header-button {
     margin-bottom: 3.5em;
     padding: 1em;
     font-size: 1.25em;
   }
 
-  /* line 426, ../scss/_custom.scss */
+  /* line 436, ../scss/_custom.scss */
   .home-page, .specials-page, .category-page, .item-detail-page, .remembered-page {
     -webkit-transition: background-image 250ms ease-out 250ms;
     -moz-transition: background-image 250ms ease-out 250ms;
@@ -9305,32 +9312,32 @@ footer a {
     height: 425px;
   }
 
-  /* line 437, ../scss/_custom.scss */
+  /* line 447, ../scss/_custom.scss */
   .home-page {
     background-image: url(../img/home-page.png);
   }
 
-  /* line 442, ../scss/_custom.scss */
+  /* line 452, ../scss/_custom.scss */
   .specials-page {
     background-image: url(../img/specials-page.png);
   }
 
-  /* line 447, ../scss/_custom.scss */
+  /* line 457, ../scss/_custom.scss */
   .category-page {
     background-image: url(../img/category-page.png);
   }
 
-  /* line 452, ../scss/_custom.scss */
+  /* line 462, ../scss/_custom.scss */
   .item-detail-page {
     background-image: url(../img/item-detail.png);
   }
 
-  /* line 457, ../scss/_custom.scss */
+  /* line 467, ../scss/_custom.scss */
   .remembered-page {
     background-image: url(../img/remembered-items.png);
   }
 
-  /* line 462, ../scss/_custom.scss */
+  /* line 472, ../scss/_custom.scss */
   .screenshot:hover {
     -webkit-transition: background-image 250ms ease-out 250ms;
     -moz-transition: background-image 250ms ease-out 250ms;
@@ -9342,46 +9349,47 @@ footer a {
     background-color: #eee;
   }
 
-  /* line 478, ../scss/_custom.scss */
+  /* line 488, ../scss/_custom.scss */
   .main-content-area .home-page-selling-points ul {
     margin: 0;
   }
-  /* line 483, ../scss/_custom.scss */
+  /* line 493, ../scss/_custom.scss */
   .main-content-area .home-page-selling-points ul li {
     font-size: 1.5em;
   }
-  /* line 489, ../scss/_custom.scss */
+  /* line 499, ../scss/_custom.scss */
   .main-content-area .home-page-main-header {
     font-size: 6.5em;
+    line-height: .9em;
   }
-  /* line 496, ../scss/_custom.scss */
+  /* line 507, ../scss/_custom.scss */
   .main-content-area .content-area {
     padding: 4em 0;
   }
-  /* line 500, ../scss/_custom.scss */
+  /* line 511, ../scss/_custom.scss */
   .main-content-area .content-area p {
     font-size: 1.75em;
     line-height: 1.5em;
   }
-  /* line 507, ../scss/_custom.scss */
+  /* line 518, ../scss/_custom.scss */
   .main-content-area .secondary-header {
     padding: 3em;
   }
-  /* line 511, ../scss/_custom.scss */
+  /* line 522, ../scss/_custom.scss */
   .main-content-area .secondary-header h2 {
     font-size: 3em;
   }
-  /* line 523, ../scss/_custom.scss */
+  /* line 534, ../scss/_custom.scss */
   .main-content-area h1 {
     font-size: 5.25em;
     line-height: 1.3em;
   }
-  /* line 529, ../scss/_custom.scss */
+  /* line 540, ../scss/_custom.scss */
   .main-content-area h2 {
     font-size: 3em;
     line-height: 1.3em;
   }
-  /* line 535, ../scss/_custom.scss */
+  /* line 546, ../scss/_custom.scss */
   .main-content-area h5 {
     font-size: 1.75em;
   }

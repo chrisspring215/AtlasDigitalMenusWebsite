@@ -170,6 +170,15 @@ background: -ms-radial-gradient(center, ellipse cover,  #ed6200 0%,#d64e00 100%)
 background: radial-gradient(ellipse at center,  #ed6200 0%,#d64e00 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed6200', endColorstr='#d64e00',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 		border-bottom: 2px solid #666;
+
+		
+	}
+
+	.main-header-background
+	{
+		background: url(../img/home-page-background.png);
+		background-repeat: no-repeat;
+		height: 461px;
 	}
 
 	.content-area
@@ -355,7 +364,8 @@ footer
 
 	.home-page-main-header
 	{
-		font-size: 5em;
+		font-size: 3em;
+		line-height: 1.3em;
 	}
 
 	.home-page-selling-points 
@@ -488,6 +498,7 @@ footer
 	.home-page-main-header
 	{
 		font-size: 6.5em;
+		line-height: .9em;
 	}
 
 
