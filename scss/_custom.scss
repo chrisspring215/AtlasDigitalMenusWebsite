@@ -176,10 +176,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed6200', end
 
 	.main-header-background
 	{
-		background: url(../img/home-page-background.png);
-		background-repeat: no-repeat;
-		height: 461px;
-	}
+		background: url(../img/home-page-background.png) no-repeat center center;
+  background-size: auto;
+  height: 461px;
+}
 
 	.content-area
 	{
