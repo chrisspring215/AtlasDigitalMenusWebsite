@@ -9064,8 +9064,8 @@ th {
 }
 /* line 178, ../scss/_custom.scss */
 .main-content-area .main-header-background {
-  background: url(../img/home-page-background.png) no-repeat center center;
-  background-size: auto;
+  background: url(../img/main-page-header-image.png) no-repeat center center;
+  background-size: contain;
   height: 461px;
 }
 /* line 185, ../scss/_custom.scss */
