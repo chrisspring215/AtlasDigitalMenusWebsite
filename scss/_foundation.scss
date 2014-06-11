@@ -1279,14 +1279,14 @@ meta.foundation-mq-topbar {
     height: 45px;
     margin: 0;
     font-size: 16px; }
-    .top-bar .name h1 {
+    .top-bar .name span {
       line-height: 45px;
       font-size: 1.0625rem;
       margin: 0; }
-      .top-bar .name h1 a {
+      .top-bar .name span a {
         font-weight: normal;
         color: $orange + 200;
-        width: 75%;
+
         display: block;
         padding: 0 15px; }
   .top-bar .toggle-topbar {
@@ -1566,9 +1566,9 @@ meta.foundation-mq-topbar {
       padding: 0 15px;
       line-height: 45px;
       color: white;
-      background: #008cba; }
+      background: $orange; }
       .top-bar-section li.active:not(.has-form) a:not(.button):hover {
-        background: #0078a0; }
+        background: $green; }
     .top-bar-section .has-dropdown > a {
       padding-right: 35px !important; }
       .top-bar-section .has-dropdown > a:after {

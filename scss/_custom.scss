@@ -183,7 +183,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed6200', end
 
 	.content-area
 	{
-		padding: 2em 0;
+		padding: 1em 0;
 		border-bottom: 2px solid #eee;
 
 		p
@@ -295,6 +295,11 @@ footer
 		font-size: 1em;
 		font-variant: small-caps;
 		font-weight: 300;
+	}
+
+	a:hover
+	{
+		color: $green;
 	}
 }
 /* MEDIUM STYLES */
@@ -417,6 +422,10 @@ footer
 	{
 		font-size: 1.75em;
 	}
+	.black
+	{
+		padding: 0;
+	}
 }
 }
 /* END Medium Styes */
@@ -516,7 +525,7 @@ footer
 
 	.secondary-header
 	{
-		padding: 3em;
+		padding: 2em;
 
 		h2
 		{
@@ -545,6 +554,11 @@ footer
 	h5
 	{
 		font-size: 1.75em;
+	}
+
+	.black
+	{
+		padding: 0;
 	}
 }
 } /* min-width 1025px, large screens */
