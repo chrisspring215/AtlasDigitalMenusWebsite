@@ -1,3 +1,5 @@
+
+
 .logo
 {
 	width: 35%;
@@ -562,3 +564,23 @@ footer
 	}
 }
 } /* min-width 1025px, large screens */
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+	.main-content-area
+	{
+		.home-page-main-header, h1
+		{
+			font-variant: normal;
+			line-height: 1.3em;
+		}
+	}
+
+	footer
+	{
+		a
+		{
+			font-variant: normal;
+		}
+	}
+}
