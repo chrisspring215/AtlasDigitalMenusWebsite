@@ -1,15 +1,17 @@
 
 
-.logo
+.logo-large
 {
-	width: 35%;
-	margin-top: -.25em;
+	background-color: #333;
+	padding: .5em 1em;
+	border: 2px solid #222;
 }
 
-.fixed
+.contain-to-grid
 {
-	border-bottom: 1px solid #666;
+	border-bottom: 2px solid #222;
 }
+
 
 
 .button
@@ -92,7 +94,7 @@
 
 .item-detail-page
 {
-	background-image:url(../img/item-detail.png); 
+	background-image:url(../img/item-detail.png);
 }
 
 .remembered-page
@@ -178,7 +180,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed6200', end
 
 	.main-header-background
 	{
-		background: url(../img/main-page-header-image.png) no-repeat center center;
+		background: url(../img/home-page-background.png) no-repeat center center;
   background-size: contain;
   height: 461px;
 }
@@ -309,8 +311,7 @@ footer
 
 .logo
 {
-	width: 25%;
-	margin-top: -.25em;
+
 }
 
 .header-button
