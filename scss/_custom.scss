@@ -7,6 +7,8 @@
 	border: 2px solid #222;
 }
 
+
+
 .contain-to-grid
 {
 	border-bottom: 2px solid #222;
@@ -125,6 +127,7 @@
 		margin-bottom: 0em;
 	}
 
+
 	.home-page-image
 	{
 -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.36);
@@ -194,6 +197,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed6200', end
 		{
 			font-weight: 300;
 			font-size: 1.15em;
+		}
+
+		.tablet
+		{
+			position: absolute;
+			top: 110px;
+			left: 95px;
+			border: none;
+		}
+
+		.tablet-frame
+		{
+			min-height: 1233px;
+			min-width: 951px;
+			max-height: 1233px;
+			max-width: 951px;
+			box-shadow: 0px 20px 20px 0;
+			border-radius: .8em;
 		}
 	}
 
@@ -306,6 +327,8 @@ footer
 		color: $green;
 	}
 }
+
+
 /* MEDIUM STYLES */
 @media only screen and (min-width: 40.063em) {  /* min-width 641px, medium screens */
 

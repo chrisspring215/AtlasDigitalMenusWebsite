@@ -8891,12 +8891,12 @@ th {
   border: 2px solid #222;
 }
 
-/* line 11, ../scss/_custom.scss */
+/* line 13, ../scss/_custom.scss */
 .contain-to-grid {
   border-bottom: 2px solid #222;
 }
 
-/* line 18, ../scss/_custom.scss */
+/* line 20, ../scss/_custom.scss */
 .button {
   display: block;
   background: #ed6200;
@@ -8923,13 +8923,13 @@ th {
   opacity: 1;
 }
 
-/* line 38, ../scss/_custom.scss */
+/* line 40, ../scss/_custom.scss */
 .button:hover {
   transition: opacity 0.25s ease;
   opacity: .8;
 }
 
-/* line 44, ../scss/_custom.scss */
+/* line 46, ../scss/_custom.scss */
 .header-button {
   -webkit-transition: background-color 250ms, color 250ms;
   -moz-transition: background-color 250ms, color 250ms;
@@ -8944,7 +8944,7 @@ th {
   margin-bottom: 2em;
 }
 
-/* line 59, ../scss/_custom.scss */
+/* line 61, ../scss/_custom.scss */
 .header-button:hover {
   -webkit-transition: background-color 250ms, color 250ms;
   -moz-transition: background-color 250ms, color 250ms;
@@ -8955,7 +8955,7 @@ th {
   border: 2px solid #f76914;
 }
 
-/* line 70, ../scss/_custom.scss */
+/* line 72, ../scss/_custom.scss */
 .home-page, .specials-page, .category-page, .item-detail-page, .remembered-page {
   -webkit-transition: background-image 250ms ease-out 250ms;
   -moz-transition: background-image 250ms ease-out 250ms;
@@ -8966,32 +8966,32 @@ th {
   height: 318px;
 }
 
-/* line 81, ../scss/_custom.scss */
+/* line 83, ../scss/_custom.scss */
 .home-page {
   background-image: url(../img/home-page.png);
 }
 
-/* line 86, ../scss/_custom.scss */
+/* line 88, ../scss/_custom.scss */
 .specials-page {
   background-image: url(../img/specials-page.png);
 }
 
-/* line 91, ../scss/_custom.scss */
+/* line 93, ../scss/_custom.scss */
 .category-page {
   background-image: url(../img/category-page.png);
 }
 
-/* line 96, ../scss/_custom.scss */
+/* line 98, ../scss/_custom.scss */
 .item-detail-page {
   background-image: url(../img/item-detail.png);
 }
 
-/* line 101, ../scss/_custom.scss */
+/* line 103, ../scss/_custom.scss */
 .remembered-page {
   background-image: url(../img/remembered-items.png);
 }
 
-/* line 106, ../scss/_custom.scss */
+/* line 108, ../scss/_custom.scss */
 .screenshot:hover {
   -webkit-transition: background-image 250ms ease-out 250ms;
   -moz-transition: background-image 250ms ease-out 250ms;
@@ -9003,46 +9003,46 @@ th {
   background-color: #eee;
 }
 
-/* line 118, ../scss/_custom.scss */
+/* line 120, ../scss/_custom.scss */
 .main-content-area {
   color: #333;
 }
-/* line 123, ../scss/_custom.scss */
+/* line 125, ../scss/_custom.scss */
 .main-content-area img {
   width: 100%;
   margin-bottom: 0em;
 }
-/* line 129, ../scss/_custom.scss */
+/* line 132, ../scss/_custom.scss */
 .main-content-area .home-page-image {
   -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.36);
   -moz-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.36);
   box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.36);
 }
-/* line 138, ../scss/_custom.scss */
+/* line 141, ../scss/_custom.scss */
 .main-content-area .home-page-selling-points h2 {
   font-size: 3em;
   margin-bottom: .15em;
 }
-/* line 144, ../scss/_custom.scss */
+/* line 147, ../scss/_custom.scss */
 .main-content-area .home-page-selling-points ul {
   margin: 0;
   padding: 0 0 1.25em 0;
 }
-/* line 150, ../scss/_custom.scss */
+/* line 153, ../scss/_custom.scss */
 .main-content-area .home-page-selling-points ul li {
   list-style-type: none;
   padding: 0 0 1.5em 0;
   font-size: 1.15em;
   font-weight: 300;
 }
-/* line 159, ../scss/_custom.scss */
+/* line 162, ../scss/_custom.scss */
 .main-content-area .home-page-main-header {
   display: block;
   color: white;
   font-size: 2.5em;
   padding: 0;
 }
-/* line 167, ../scss/_custom.scss */
+/* line 170, ../scss/_custom.scss */
 .main-content-area .main-header {
   background: #ed6200;
   /* Old browsers */
@@ -9062,23 +9062,39 @@ th {
   /* IE6-9 fallback on horizontal gradient */
   border-bottom: 2px solid #666;
 }
-/* line 182, ../scss/_custom.scss */
+/* line 185, ../scss/_custom.scss */
 .main-content-area .main-header-background {
   background: url(../img/home-page-background.png) no-repeat center center;
   background-size: contain;
   height: 461px;
 }
-/* line 189, ../scss/_custom.scss */
+/* line 192, ../scss/_custom.scss */
 .main-content-area .content-area {
   padding: 1em 0;
   border-bottom: 2px solid #eee;
 }
-/* line 194, ../scss/_custom.scss */
+/* line 197, ../scss/_custom.scss */
 .main-content-area .content-area p {
   font-weight: 300;
   font-size: 1.15em;
 }
-/* line 201, ../scss/_custom.scss */
+/* line 203, ../scss/_custom.scss */
+.main-content-area .content-area .tablet {
+  position: absolute;
+  top: 110px;
+  left: 95px;
+  border: none;
+}
+/* line 211, ../scss/_custom.scss */
+.main-content-area .content-area .tablet-frame {
+  min-height: 1233px;
+  min-width: 951px;
+  max-height: 1233px;
+  max-width: 951px;
+  box-shadow: 0px 20px 20px 0;
+  border-radius: .8em;
+}
+/* line 222, ../scss/_custom.scss */
 .main-content-area .secondary-header {
   background: #323232;
   /* Old browsers */
@@ -9099,13 +9115,13 @@ th {
   color: #fff;
   padding: 1em;
 }
-/* line 215, ../scss/_custom.scss */
+/* line 236, ../scss/_custom.scss */
 .main-content-area .secondary-header h2 {
   font-size: 1.5em;
   color: white;
   line-height: 1.3em;
 }
-/* line 224, ../scss/_custom.scss */
+/* line 245, ../scss/_custom.scss */
 .main-content-area h1 {
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: bold;
@@ -9116,7 +9132,7 @@ th {
   line-height: 1em;
   color: #e35500;
 }
-/* line 236, ../scss/_custom.scss */
+/* line 257, ../scss/_custom.scss */
 .main-content-area h2 {
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: 900;
@@ -9127,7 +9143,7 @@ th {
   */
   line-height: 1.1em;
 }
-/* line 248, ../scss/_custom.scss */
+/* line 269, ../scss/_custom.scss */
 .main-content-area h5 {
   font-family: "Open Sans Condensed", sans-serif;
   /*
@@ -9138,7 +9154,7 @@ th {
   color: #fff;
   font-weight: 300;
 }
-/* line 262, ../scss/_custom.scss */
+/* line 283, ../scss/_custom.scss */
 .main-content-area .callout h3 {
   font-weight: 300;
   font-family: "Open Sans Condensed", sans-serif;
@@ -9146,7 +9162,7 @@ th {
   font-size: 1.75em;
 }
 
-/* line 272, ../scss/_custom.scss */
+/* line 293, ../scss/_custom.scss */
 .black {
   background: #323232;
   /* Old browsers */
@@ -9166,25 +9182,25 @@ th {
   /* IE6-9 fallback on horizontal gradient */
 }
 
-/* line 285, ../scss/_custom.scss */
+/* line 306, ../scss/_custom.scss */
 footer {
   padding: 3em 0 2em 0;
   background-color: #222;
   border-top: 2px solid #eee;
 }
-/* line 291, ../scss/_custom.scss */
+/* line 312, ../scss/_custom.scss */
 footer ul {
   list-style-type: none;
   color: #fff;
 }
-/* line 297, ../scss/_custom.scss */
+/* line 318, ../scss/_custom.scss */
 footer a {
   color: #e35500;
   font-size: 1em;
   font-variant: small-caps;
   font-weight: 300;
 }
-/* line 305, ../scss/_custom.scss */
+/* line 326, ../scss/_custom.scss */
 footer a:hover {
   color: #7e8600;
 }
@@ -9192,12 +9208,12 @@ footer a:hover {
 /* MEDIUM STYLES */
 @media only screen and (min-width: 40.063em) {
   /* min-width 641px, medium screens */
-  /* line 318, ../scss/_custom.scss */
+  /* line 341, ../scss/_custom.scss */
   .header-button {
     margin-bottom: 2.75em;
   }
 
-  /* line 323, ../scss/_custom.scss */
+  /* line 346, ../scss/_custom.scss */
   .home-page, .specials-page, .category-page, .item-detail-page, .remembered-page {
     -webkit-transition: background-image 250ms ease-out 250ms;
     -moz-transition: background-image 250ms ease-out 250ms;
@@ -9208,32 +9224,32 @@ footer a:hover {
     height: 318px;
   }
 
-  /* line 334, ../scss/_custom.scss */
+  /* line 357, ../scss/_custom.scss */
   .home-page {
     background-image: url(../img/home-page.png);
   }
 
-  /* line 339, ../scss/_custom.scss */
+  /* line 362, ../scss/_custom.scss */
   .specials-page {
     background-image: url(../img/specials-page.png);
   }
 
-  /* line 344, ../scss/_custom.scss */
+  /* line 367, ../scss/_custom.scss */
   .category-page {
     background-image: url(../img/category-page.png);
   }
 
-  /* line 349, ../scss/_custom.scss */
+  /* line 372, ../scss/_custom.scss */
   .item-detail-page {
     background-image: url(../img/item-detail.png);
   }
 
-  /* line 354, ../scss/_custom.scss */
+  /* line 377, ../scss/_custom.scss */
   .remembered-page {
     background-image: url(../img/remembered-items.png);
   }
 
-  /* line 359, ../scss/_custom.scss */
+  /* line 382, ../scss/_custom.scss */
   .screenshot:hover {
     -webkit-transition: background-image 250ms ease-out 250ms;
     -moz-transition: background-image 250ms ease-out 250ms;
@@ -9245,50 +9261,50 @@ footer a:hover {
     background-color: #eee;
   }
 
-  /* line 374, ../scss/_custom.scss */
+  /* line 397, ../scss/_custom.scss */
   .main-content-area .home-page-main-header {
     font-size: 3em;
     line-height: 1.3em;
   }
-  /* line 382, ../scss/_custom.scss */
+  /* line 405, ../scss/_custom.scss */
   .main-content-area .home-page-selling-points ul {
     margin: 0;
   }
-  /* line 387, ../scss/_custom.scss */
+  /* line 410, ../scss/_custom.scss */
   .main-content-area .home-page-selling-points ul li {
     font-size: 1.25em;
   }
-  /* line 393, ../scss/_custom.scss */
+  /* line 416, ../scss/_custom.scss */
   .main-content-area .content-area {
     padding: 3em 0;
   }
-  /* line 397, ../scss/_custom.scss */
+  /* line 420, ../scss/_custom.scss */
   .main-content-area .content-area p {
     font-size: 1.35em;
   }
-  /* line 403, ../scss/_custom.scss */
+  /* line 426, ../scss/_custom.scss */
   .main-content-area .secondary-header {
     padding: 1em;
   }
-  /* line 407, ../scss/_custom.scss */
+  /* line 430, ../scss/_custom.scss */
   .main-content-area .secondary-header h2 {
     font-size: 2.5em;
   }
-  /* line 413, ../scss/_custom.scss */
+  /* line 436, ../scss/_custom.scss */
   .main-content-area h1 {
     font-size: 3em;
     line-height: 1em;
   }
-  /* line 419, ../scss/_custom.scss */
+  /* line 442, ../scss/_custom.scss */
   .main-content-area h2 {
     font-size: 3em;
     line-height: 1.2em;
   }
-  /* line 425, ../scss/_custom.scss */
+  /* line 448, ../scss/_custom.scss */
   .main-content-area h5 {
     font-size: 1.75em;
   }
-  /* line 429, ../scss/_custom.scss */
+  /* line 452, ../scss/_custom.scss */
   .main-content-area .black {
     padding: 0;
   }
@@ -9296,14 +9312,14 @@ footer a:hover {
 /* END Medium Styes */
 /* Large Screen Styles */
 @media only screen and (min-width: 64.063em) {
-  /* line 441, ../scss/_custom.scss */
+  /* line 464, ../scss/_custom.scss */
   .header-button {
     margin-bottom: 3.5em;
     padding: 1em;
     font-size: 1.25em;
   }
 
-  /* line 448, ../scss/_custom.scss */
+  /* line 471, ../scss/_custom.scss */
   .home-page, .specials-page, .category-page, .item-detail-page, .remembered-page {
     -webkit-transition: background-image 250ms ease-out 250ms;
     -moz-transition: background-image 250ms ease-out 250ms;
@@ -9314,32 +9330,32 @@ footer a:hover {
     height: 425px;
   }
 
-  /* line 459, ../scss/_custom.scss */
+  /* line 482, ../scss/_custom.scss */
   .home-page {
     background-image: url(../img/home-page.png);
   }
 
-  /* line 464, ../scss/_custom.scss */
+  /* line 487, ../scss/_custom.scss */
   .specials-page {
     background-image: url(../img/specials-page.png);
   }
 
-  /* line 469, ../scss/_custom.scss */
+  /* line 492, ../scss/_custom.scss */
   .category-page {
     background-image: url(../img/category-page.png);
   }
 
-  /* line 474, ../scss/_custom.scss */
+  /* line 497, ../scss/_custom.scss */
   .item-detail-page {
     background-image: url(../img/item-detail.png);
   }
 
-  /* line 479, ../scss/_custom.scss */
+  /* line 502, ../scss/_custom.scss */
   .remembered-page {
     background-image: url(../img/remembered-items.png);
   }
 
-  /* line 484, ../scss/_custom.scss */
+  /* line 507, ../scss/_custom.scss */
   .screenshot:hover {
     -webkit-transition: background-image 250ms ease-out 250ms;
     -moz-transition: background-image 250ms ease-out 250ms;
@@ -9351,64 +9367,64 @@ footer a:hover {
     background-color: #eee;
   }
 
-  /* line 500, ../scss/_custom.scss */
+  /* line 523, ../scss/_custom.scss */
   .main-content-area .home-page-selling-points ul {
     margin: 0;
   }
-  /* line 505, ../scss/_custom.scss */
+  /* line 528, ../scss/_custom.scss */
   .main-content-area .home-page-selling-points ul li {
     font-size: 1.5em;
   }
-  /* line 511, ../scss/_custom.scss */
+  /* line 534, ../scss/_custom.scss */
   .main-content-area .home-page-main-header {
     font-size: 6.5em;
     line-height: .9em;
   }
-  /* line 519, ../scss/_custom.scss */
+  /* line 542, ../scss/_custom.scss */
   .main-content-area .content-area {
     padding: 4em 0;
   }
-  /* line 523, ../scss/_custom.scss */
+  /* line 546, ../scss/_custom.scss */
   .main-content-area .content-area p {
     font-size: 1.75em;
     line-height: 1.5em;
   }
-  /* line 530, ../scss/_custom.scss */
+  /* line 553, ../scss/_custom.scss */
   .main-content-area .secondary-header {
     padding: 2em;
   }
-  /* line 534, ../scss/_custom.scss */
+  /* line 557, ../scss/_custom.scss */
   .main-content-area .secondary-header h2 {
     font-size: 3em;
   }
-  /* line 546, ../scss/_custom.scss */
+  /* line 569, ../scss/_custom.scss */
   .main-content-area h1 {
     font-size: 5.25em;
     line-height: 1.3em;
   }
-  /* line 552, ../scss/_custom.scss */
+  /* line 575, ../scss/_custom.scss */
   .main-content-area h2 {
     font-size: 3em;
     line-height: 1.3em;
   }
-  /* line 558, ../scss/_custom.scss */
+  /* line 581, ../scss/_custom.scss */
   .main-content-area h5 {
     font-size: 1.75em;
   }
-  /* line 563, ../scss/_custom.scss */
+  /* line 586, ../scss/_custom.scss */
   .main-content-area .black {
     padding: 0;
   }
 }
 /* min-width 1025px, large screens */
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
-  /* line 574, ../scss/_custom.scss */
+  /* line 597, ../scss/_custom.scss */
   .main-content-area .home-page-main-header, .main-content-area h1 {
     font-variant: normal;
     line-height: 1.3em;
   }
 
-  /* line 583, ../scss/_custom.scss */
+  /* line 606, ../scss/_custom.scss */
   footer a {
     font-variant: normal;
   }
