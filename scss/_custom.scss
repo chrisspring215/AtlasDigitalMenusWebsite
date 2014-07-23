@@ -7,8 +7,25 @@
 	border: 2px solid #222;
 }
 
+textarea
+{
+	color: #444;
+}
 
-
+input[type=submit]
+{
+	display: inline-block;
+	width: 100%;
+	background: $orange;
+	font-size: 2.25em;
+	padding: 0 0 0 1em 0;
+	line-height: 1.3em;
+	height: 60px;
+	padding-bottom: .19em;
+	border: none;
+	font-weight: 400;
+	font-family: $header;
+}
 .contain-to-grid
 {
 	border-bottom: 2px solid #222;
