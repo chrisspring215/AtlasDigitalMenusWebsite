@@ -6,7 +6,7 @@ $contact_website = $_POST['contact_website'];
 $contact_phone = $_POST['contact_phone'];
 $contact_email = $_POST['contact_email'];
 $contact_message = $_POST['contact_message'];
-$to = 'chris@spring215.com';
+$to = 'sales@atlasmenu.com';
 $subject = 'New Affilate Contact';
 
 $message = 'CONTACT NAME: ' . $contact_name . "\n" . 'COMPANY: ' . $contact_company . "\n" . 'WEBSITE: ' . $contact_website . "\n" . 'PHONE: ' . $contact_phone . "\n" . 'EMAIL: ' . $contact_email . "\n" . 'MESSAGE: ' . $contact_message;

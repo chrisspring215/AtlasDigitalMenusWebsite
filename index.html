@@ -126,36 +126,41 @@
         <div class="row">
           <div class="panel callout small-10 medium-8 large-8 small-offset-1 medium-offset-2 large-offset-2 columns">
             <h3>Contact us today to find out how we can help!</h3>
-
-            <form>
+            <form action="affil_contact_form.php" method="post">
               <div class="row">
                 <div class="large-12 columns">
                   <label>Your Name
-                    <input type="text" placeholder="Joe Anybody" />
+                    <input name="contact_name" type="text" placeholder="Joe Anybody" />
                   </label>
                 </div>
                 <div class="large-12 columns">
                   <label>Establishment's Name
-                    <input type="text" placeholder="Your Restaurant" />
+                    <input name="contact_company" type="text" placeholder="Your Restaurant" />
                   </label>
                 </div>
                 <div class="large-12 columns">
                   <label>Website, Yelp page or Facebook Page
-                    <input type="url" placeholder="www.myplace.com" />
+                    <input name="contact_website" type="text" placeholder="www.myplace.com" />
                   </label>
                 </div>
                 <div class="large-12 columns">
                   <label>Phone number you would like to be reached at
-                    <input type="tel" placeholder="123-456-7890" />
+                    <input name="contact_phone" type="tel" placeholder="123-456-7890" />
                   </label>
                 </div>
                 <div class="large-12 columns">
                   <label>Your Email
-                    <input type="email" placeholder="you@someplace.com" />
+                    <input name="contact_email" type="email" placeholder="you@someplace.com" />
                   </label>
                 </div>
+                <div class="large-12 columns">
+                  <label>Message
+                    <textarea name="contact_message" placeholder="Anything you would like us to know about you?"></textarea>
+                  </label>
+                  <br>
+                </div>
                 <div class="small-12 large-12 columns">
-                  <a class="button" href="">SUBMIT</a>
+                  <input type="submit" name="submit" id="submit" value="submit" />
                 </div>
               </div>
             </form>
