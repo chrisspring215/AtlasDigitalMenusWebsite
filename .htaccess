@@ -13,3 +13,7 @@ AddOutputFilterByType DEFLATE application/x-javascript
 <files *.html>
 SetOutputFilter DEFLATE
 </files>
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^atlasmenu.com [NC]
+RewriteRule ^(.*)$ http://www.atlasmenu.com/$1 [L,R=301]
