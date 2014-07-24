@@ -5,4 +5,5 @@ Sitemap: http://www.atlasmenu.com/sitemap.xml
 
 User-agent: *
 Disallow: /menu-demo.html
+Disallow: /affilcontact-thank-you.html‎
 
