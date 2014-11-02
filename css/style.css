@@ -1949,7 +1949,7 @@ meta.foundation-mq-topbar {
 /* line 1286, ../scss/_foundation.scss */
 .top-bar .name span a {
   font-weight: normal;
-  color: #ffffc8;
+  color: #c8ffff;
   display: block;
   padding: 0 15px;
 }
@@ -1963,7 +1963,7 @@ meta.foundation-mq-topbar {
 
 /* line 1296, ../scss/_foundation.scss */
 .top-bar .toggle-topbar a {
-  color: #ffffc8;
+  color: #c8ffff;
   text-transform: uppercase;
   font-size: 0.8125rem;
   font-weight: bold;
@@ -1988,7 +1988,7 @@ meta.foundation-mq-topbar {
   line-height: 33px;
   padding: 0;
   padding-right: 25px;
-  color: #ffffc8;
+  color: #c8ffff;
   position: relative;
 }
 
@@ -2001,7 +2001,7 @@ meta.foundation-mq-topbar {
   width: 16px;
   top: 0;
   height: 0;
-  box-shadow: 0 10px 0 1px #ffffc8, 0 16px 0 1px #ffffc8, 0 22px 0 1px #ffffc8;
+  box-shadow: 0 10px 0 1px #c8ffff, 0 16px 0 1px #c8ffff, 0 22px 0 1px #c8ffff;
 }
 
 /* line 1327, ../scss/_foundation.scss */
@@ -2056,7 +2056,7 @@ meta.foundation-mq-topbar {
 .top-bar-section ul li > a {
   display: block;
   width: 100%;
-  color: #ffffc8;
+  color: #c8ffff;
   padding: 12px 0 12px 0;
   padding-left: 15px;
   font-family: "Open Sans", sans-serif, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -2071,7 +2071,7 @@ meta.foundation-mq-topbar {
   font-size: 0.8125rem;
   padding-right: 15px;
   padding-left: 15px;
-  background-color: #e35500;
+  background-color: #006cff;
   border-color: #007095;
   color: white;
 }
@@ -2216,14 +2216,14 @@ meta.foundation-mq-topbar {
 
 /* line 1439, ../scss/_foundation.scss */
 .top-bar-section ul li.active > a {
-  background: #e35500;
-  color: #ffffc8;
+  background: #006cff;
+  color: #c8ffff;
 }
 
 /* line 1442, ../scss/_foundation.scss */
 .top-bar-section ul li.active > a:hover {
-  background: #cf4100;
-  color: #ffffc8;
+  background: #0058eb;
+  color: #c8ffff;
 }
 
 /* line 1445, ../scss/_foundation.scss */
@@ -2443,7 +2443,7 @@ meta.foundation-mq-topbar {
     padding: 0 15px;
     line-height: 45px;
     color: white;
-    background: #e35500;
+    background: #006cff;
   }
 
   /* line 1570, ../scss/_foundation.scss */
@@ -7130,12 +7130,12 @@ textarea.radius {
 /* line 4504, ../scss/_foundation.scss */
 input[type="submit"] {
   -webkit-appearance: none;
-  color: #ffffc8;
+  color: #c8ffff;
   background-color: #7e8600;
   font-weight: bold;
   font-variant: small-caps;
   font-style: inherit;
-  border: 1px solid #ffffc8;
+  border: 1px solid #c8ffff;
 }
 
 /* Respect enforced amount of rows for textarea */
@@ -8906,7 +8906,7 @@ textarea {
 input[type=submit] {
   display: inline-block;
   width: 100%;
-  background: #e35500;
+  background: #006cff;
   font-size: 2.25em;
   padding: 0 0 0 1em 0;
   line-height: 1.3em;
@@ -8925,22 +8925,7 @@ input[type=submit] {
 /* line 41, ../scss/_custom.scss */
 .button {
   display: block;
-  background: #ed6200;
-  /* Old browsers */
-  background: -moz-radial-gradient(center, ellipse cover, #ed6200 0%, #d64e00 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #ed6200), color-stop(100%, #d64e00));
-  /* Chrome,Safari4+ */
-  background: -webkit-radial-gradient(center, ellipse cover, #ed6200 0%, #d64e00 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-radial-gradient(center, ellipse cover, #ed6200 0%, #d64e00 100%);
-  /* Opera 12+ */
-  background: -ms-radial-gradient(center, ellipse cover, #ed6200 0%, #d64e00 100%);
-  /* IE10+ */
-  background: radial-gradient(ellipse at center, #ed6200 0%, #d64e00 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed6200', endColorstr='#d64e00',GradientType=1 );
-  /* IE6-9 fallback on horizontal gradient */
+  background: #006cff;
   font-weight: 300;
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 2em;
@@ -8949,20 +8934,21 @@ input[type=submit] {
   opacity: 1;
 }
 
-/* line 61, ../scss/_custom.scss */
+/* line 54, ../scss/_custom.scss */
 .button:hover {
   transition: opacity 0.25s ease;
   opacity: .8;
+  background: #0058eb;
 }
 
-/* line 67, ../scss/_custom.scss */
+/* line 61, ../scss/_custom.scss */
 .header-button {
   -webkit-transition: background-color 250ms, color 250ms;
   -moz-transition: background-color 250ms, color 250ms;
   -o-transition: background-color 250ms, color 250ms;
   transition: background-color 250ms, color 250ms;
   display: block;
-  background-color: #e35500;
+  background-color: #006cff;
   color: white;
   padding: .75em 0;
   border-radius: .3em;
@@ -8970,18 +8956,18 @@ input[type=submit] {
   margin-bottom: 2em;
 }
 
-/* line 82, ../scss/_custom.scss */
+/* line 76, ../scss/_custom.scss */
 .header-button:hover {
   -webkit-transition: background-color 250ms, color 250ms;
   -moz-transition: background-color 250ms, color 250ms;
   -o-transition: background-color 250ms, color 250ms;
   transition: background-color 250ms, color 250ms;
   background-color: white;
-  color: #f76914;
-  border: 2px solid #f76914;
+  color: #1480ff;
+  border: 2px solid #1480ff;
 }
 
-/* line 93, ../scss/_custom.scss */
+/* line 87, ../scss/_custom.scss */
 .home-page, .specials-page, .category-page, .item-detail-page, .remembered-page {
   -webkit-transition: background-image 250ms ease-out 250ms;
   -moz-transition: background-image 250ms ease-out 250ms;
@@ -8992,32 +8978,32 @@ input[type=submit] {
   height: 318px;
 }
 
-/* line 104, ../scss/_custom.scss */
+/* line 98, ../scss/_custom.scss */
 .home-page {
   background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-home-page.png);
 }
 
-/* line 109, ../scss/_custom.scss */
+/* line 103, ../scss/_custom.scss */
 .specials-page {
   background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-specials-page.png);
 }
 
-/* line 114, ../scss/_custom.scss */
+/* line 108, ../scss/_custom.scss */
 .category-page {
   background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-category-page.png);
 }
 
-/* line 119, ../scss/_custom.scss */
+/* line 113, ../scss/_custom.scss */
 .item-detail-page {
   background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-item-detail.png);
 }
 
-/* line 124, ../scss/_custom.scss */
+/* line 118, ../scss/_custom.scss */
 .remembered-page {
   background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-remembered-items.png);
 }
 
-/* line 129, ../scss/_custom.scss */
+/* line 123, ../scss/_custom.scss */
 .screenshot:hover {
   -webkit-transition: background-image 250ms ease-out 250ms;
   -moz-transition: background-image 250ms ease-out 250ms;
@@ -9029,89 +9015,74 @@ input[type=submit] {
   background-color: #eee;
 }
 
-/* line 141, ../scss/_custom.scss */
+/* line 135, ../scss/_custom.scss */
 .main-content-area {
   color: #333;
 }
-/* line 146, ../scss/_custom.scss */
+/* line 140, ../scss/_custom.scss */
 .main-content-area img {
   width: 100%;
   margin-bottom: 0em;
 }
-/* line 153, ../scss/_custom.scss */
+/* line 147, ../scss/_custom.scss */
 .main-content-area .home-page-image {
   -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.36);
   -moz-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.36);
   box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.36);
 }
-/* line 162, ../scss/_custom.scss */
+/* line 156, ../scss/_custom.scss */
 .main-content-area .home-page-selling-points h2 {
   font-size: 3em;
   margin-bottom: .15em;
 }
-/* line 168, ../scss/_custom.scss */
+/* line 162, ../scss/_custom.scss */
 .main-content-area .home-page-selling-points ul {
   margin: 0;
   padding: 0 0 1.25em 0;
 }
-/* line 174, ../scss/_custom.scss */
+/* line 168, ../scss/_custom.scss */
 .main-content-area .home-page-selling-points ul li {
   list-style-type: none;
   padding: 0 0 1.5em 0;
   font-size: 1.15em;
   font-weight: 300;
 }
-/* line 183, ../scss/_custom.scss */
+/* line 177, ../scss/_custom.scss */
 .main-content-area .home-page-main-header {
   display: block;
   color: white;
   font-size: 2.5em;
   padding: 0;
 }
-/* line 191, ../scss/_custom.scss */
+/* line 185, ../scss/_custom.scss */
 .main-content-area .main-header {
-  background: #ed6200;
-  /* Old browsers */
-  background: -moz-radial-gradient(center, ellipse cover, #ed6200 0%, #d64e00 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #ed6200), color-stop(100%, #d64e00));
-  /* Chrome,Safari4+ */
-  background: -webkit-radial-gradient(center, ellipse cover, #ed6200 0%, #d64e00 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-radial-gradient(center, ellipse cover, #ed6200 0%, #d64e00 100%);
-  /* Opera 12+ */
-  background: -ms-radial-gradient(center, ellipse cover, #ed6200 0%, #d64e00 100%);
-  /* IE10+ */
-  background: radial-gradient(ellipse at center, #ed6200 0%, #d64e00 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed6200', endColorstr='#d64e00',GradientType=1 );
-  /* IE6-9 fallback on horizontal gradient */
+  background: #eee;
   border-bottom: 2px solid #666;
 }
-/* line 206, ../scss/_custom.scss */
+/* line 194, ../scss/_custom.scss */
 .main-content-area .main-header-background {
   background: url(../img/home-page-background.png) no-repeat center center;
   background-size: contain;
   height: 461px;
 }
-/* line 213, ../scss/_custom.scss */
+/* line 201, ../scss/_custom.scss */
 .main-content-area .content-area {
   padding: 1em 0;
   border-bottom: 2px solid #eee;
 }
-/* line 218, ../scss/_custom.scss */
+/* line 206, ../scss/_custom.scss */
 .main-content-area .content-area p {
   font-weight: 300;
   font-size: 1.15em;
 }
-/* line 224, ../scss/_custom.scss */
+/* line 212, ../scss/_custom.scss */
 .main-content-area .content-area .tablet {
   position: absolute;
   top: 110px;
   left: 95px;
   border: none;
 }
-/* line 232, ../scss/_custom.scss */
+/* line 220, ../scss/_custom.scss */
 .main-content-area .content-area .tablet-frame {
   min-height: 1233px;
   min-width: 951px;
@@ -9120,7 +9091,7 @@ input[type=submit] {
   box-shadow: 0px 20px 20px 0;
   border-radius: .8em;
 }
-/* line 243, ../scss/_custom.scss */
+/* line 231, ../scss/_custom.scss */
 .main-content-area .secondary-header {
   background: #323232;
   /* Old browsers */
@@ -9141,13 +9112,13 @@ input[type=submit] {
   color: #fff;
   padding: 1em;
 }
-/* line 257, ../scss/_custom.scss */
+/* line 245, ../scss/_custom.scss */
 .main-content-area .secondary-header h2 {
   font-size: 1.5em;
   color: white;
   line-height: 1.3em;
 }
-/* line 266, ../scss/_custom.scss */
+/* line 254, ../scss/_custom.scss */
 .main-content-area h1 {
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: bold;
@@ -9156,20 +9127,20 @@ input[type=submit] {
   font-size: 3em;
   font-variant: small-caps;
   line-height: 1em;
-  color: #e35500;
+  color: #006cff;
 }
-/* line 278, ../scss/_custom.scss */
+/* line 266, ../scss/_custom.scss */
 .main-content-area h2 {
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: 900;
   font-size: 1.75em;
-  color: #e35500;
+  color: #006cff;
   /*
   font-variant: small-caps;
   */
   line-height: 1.1em;
 }
-/* line 290, ../scss/_custom.scss */
+/* line 278, ../scss/_custom.scss */
 .main-content-area h5 {
   font-family: "Open Sans Condensed", sans-serif;
   /*
@@ -9180,15 +9151,15 @@ input[type=submit] {
   color: #fff;
   font-weight: 300;
 }
-/* line 304, ../scss/_custom.scss */
+/* line 292, ../scss/_custom.scss */
 .main-content-area .callout h3 {
   font-weight: 300;
   font-family: "Open Sans Condensed", sans-serif;
-  color: #e35500;
+  color: #006cff;
   font-size: 1.75em;
 }
 
-/* line 314, ../scss/_custom.scss */
+/* line 302, ../scss/_custom.scss */
 .black {
   background: #323232;
   /* Old browsers */
@@ -9208,25 +9179,25 @@ input[type=submit] {
   /* IE6-9 fallback on horizontal gradient */
 }
 
-/* line 327, ../scss/_custom.scss */
+/* line 315, ../scss/_custom.scss */
 footer {
   padding: 3em 0 2em 0;
   background-color: #222;
   border-top: 2px solid #eee;
 }
-/* line 333, ../scss/_custom.scss */
+/* line 321, ../scss/_custom.scss */
 footer ul {
   list-style-type: none;
   color: #fff;
 }
-/* line 339, ../scss/_custom.scss */
+/* line 327, ../scss/_custom.scss */
 footer a {
-  color: #e35500;
+  color: #006cff;
   font-size: 1em;
   font-variant: small-caps;
   font-weight: 300;
 }
-/* line 347, ../scss/_custom.scss */
+/* line 335, ../scss/_custom.scss */
 footer a:hover {
   color: #7e8600;
 }
@@ -9234,12 +9205,12 @@ footer a:hover {
 /* MEDIUM STYLES */
 @media only screen and (min-width: 40.063em) {
   /* min-width 641px, medium screens */
-  /* line 362, ../scss/_custom.scss */
+  /* line 350, ../scss/_custom.scss */
   .header-button {
     margin-bottom: 2.75em;
   }
 
-  /* line 367, ../scss/_custom.scss */
+  /* line 355, ../scss/_custom.scss */
   .home-page, .specials-page, .category-page, .item-detail-page, .remembered-page {
     -webkit-transition: background-image 250ms ease-out 250ms;
     -moz-transition: background-image 250ms ease-out 250ms;
@@ -9250,32 +9221,32 @@ footer a:hover {
     height: 318px;
   }
 
-  /* line 378, ../scss/_custom.scss */
+  /* line 366, ../scss/_custom.scss */
   .home-page {
     background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-home-page.png);
   }
 
-  /* line 383, ../scss/_custom.scss */
+  /* line 371, ../scss/_custom.scss */
   .specials-page {
     background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-specials-page.png);
   }
 
-  /* line 388, ../scss/_custom.scss */
+  /* line 376, ../scss/_custom.scss */
   .category-page {
     background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-category-page.png);
   }
 
-  /* line 393, ../scss/_custom.scss */
+  /* line 381, ../scss/_custom.scss */
   .item-detail-page {
     background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-item-detail.png);
   }
 
-  /* line 398, ../scss/_custom.scss */
+  /* line 386, ../scss/_custom.scss */
   .remembered-page {
     background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-remembered-items.png);
   }
 
-  /* line 403, ../scss/_custom.scss */
+  /* line 391, ../scss/_custom.scss */
   .screenshot:hover {
     -webkit-transition: background-image 250ms ease-out 250ms;
     -moz-transition: background-image 250ms ease-out 250ms;
@@ -9287,50 +9258,50 @@ footer a:hover {
     background-color: #eee;
   }
 
-  /* line 418, ../scss/_custom.scss */
+  /* line 406, ../scss/_custom.scss */
   .main-content-area .home-page-main-header {
     font-size: 3em;
     line-height: 1.3em;
   }
-  /* line 426, ../scss/_custom.scss */
+  /* line 414, ../scss/_custom.scss */
   .main-content-area .home-page-selling-points ul {
     margin: 0;
   }
-  /* line 431, ../scss/_custom.scss */
+  /* line 419, ../scss/_custom.scss */
   .main-content-area .home-page-selling-points ul li {
     font-size: 1.25em;
   }
-  /* line 437, ../scss/_custom.scss */
+  /* line 425, ../scss/_custom.scss */
   .main-content-area .content-area {
     padding: 3em 0;
   }
-  /* line 441, ../scss/_custom.scss */
+  /* line 429, ../scss/_custom.scss */
   .main-content-area .content-area p {
     font-size: 1.35em;
   }
-  /* line 447, ../scss/_custom.scss */
+  /* line 435, ../scss/_custom.scss */
   .main-content-area .secondary-header {
     padding: 1em;
   }
-  /* line 451, ../scss/_custom.scss */
+  /* line 439, ../scss/_custom.scss */
   .main-content-area .secondary-header h2 {
     font-size: 2.5em;
   }
-  /* line 457, ../scss/_custom.scss */
+  /* line 445, ../scss/_custom.scss */
   .main-content-area h1 {
     font-size: 3em;
     line-height: 1em;
   }
-  /* line 463, ../scss/_custom.scss */
+  /* line 451, ../scss/_custom.scss */
   .main-content-area h2 {
     font-size: 3em;
     line-height: 1.2em;
   }
-  /* line 469, ../scss/_custom.scss */
+  /* line 457, ../scss/_custom.scss */
   .main-content-area h5 {
     font-size: 1.75em;
   }
-  /* line 473, ../scss/_custom.scss */
+  /* line 461, ../scss/_custom.scss */
   .main-content-area .black {
     padding: 0;
   }
@@ -9338,14 +9309,14 @@ footer a:hover {
 /* END Medium Styes */
 /* Large Screen Styles */
 @media only screen and (min-width: 64.063em) {
-  /* line 485, ../scss/_custom.scss */
+  /* line 473, ../scss/_custom.scss */
   .header-button {
     margin-bottom: 3.5em;
     padding: 1em;
     font-size: 1.25em;
   }
 
-  /* line 492, ../scss/_custom.scss */
+  /* line 480, ../scss/_custom.scss */
   .home-page, .specials-page, .category-page, .item-detail-page, .remembered-page {
     -webkit-transition: background-image 250ms ease-out 250ms;
     -moz-transition: background-image 250ms ease-out 250ms;
@@ -9356,32 +9327,32 @@ footer a:hover {
     height: 425px;
   }
 
-  /* line 503, ../scss/_custom.scss */
+  /* line 491, ../scss/_custom.scss */
   .home-page {
     background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-home-page.png);
   }
 
-  /* line 508, ../scss/_custom.scss */
+  /* line 496, ../scss/_custom.scss */
   .specials-page {
     background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-specials-page.png);
   }
 
-  /* line 513, ../scss/_custom.scss */
+  /* line 501, ../scss/_custom.scss */
   .category-page {
     background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-category-page.png);
   }
 
-  /* line 518, ../scss/_custom.scss */
+  /* line 506, ../scss/_custom.scss */
   .item-detail-page {
     background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-item-detail.png);
   }
 
-  /* line 523, ../scss/_custom.scss */
+  /* line 511, ../scss/_custom.scss */
   .remembered-page {
     background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-remembered-items.png);
   }
 
-  /* line 528, ../scss/_custom.scss */
+  /* line 516, ../scss/_custom.scss */
   .screenshot:hover {
     -webkit-transition: background-image 250ms ease-out 250ms;
     -moz-transition: background-image 250ms ease-out 250ms;
@@ -9393,64 +9364,64 @@ footer a:hover {
     background-color: #eee;
   }
 
-  /* line 544, ../scss/_custom.scss */
+  /* line 532, ../scss/_custom.scss */
   .main-content-area .home-page-selling-points ul {
     margin: 0;
   }
-  /* line 549, ../scss/_custom.scss */
+  /* line 537, ../scss/_custom.scss */
   .main-content-area .home-page-selling-points ul li {
     font-size: 1.5em;
   }
-  /* line 555, ../scss/_custom.scss */
+  /* line 543, ../scss/_custom.scss */
   .main-content-area .home-page-main-header {
     font-size: 6.5em;
     line-height: .9em;
   }
-  /* line 563, ../scss/_custom.scss */
+  /* line 551, ../scss/_custom.scss */
   .main-content-area .content-area {
     padding: 4em 0;
   }
-  /* line 567, ../scss/_custom.scss */
+  /* line 555, ../scss/_custom.scss */
   .main-content-area .content-area p {
     font-size: 1.75em;
     line-height: 1.5em;
   }
-  /* line 574, ../scss/_custom.scss */
+  /* line 562, ../scss/_custom.scss */
   .main-content-area .secondary-header {
     padding: 2em;
   }
-  /* line 578, ../scss/_custom.scss */
+  /* line 566, ../scss/_custom.scss */
   .main-content-area .secondary-header h2 {
     font-size: 3em;
   }
-  /* line 590, ../scss/_custom.scss */
+  /* line 578, ../scss/_custom.scss */
   .main-content-area h1 {
     font-size: 5.25em;
     line-height: 1.3em;
   }
-  /* line 596, ../scss/_custom.scss */
+  /* line 584, ../scss/_custom.scss */
   .main-content-area h2 {
     font-size: 3em;
     line-height: 1.3em;
   }
-  /* line 602, ../scss/_custom.scss */
+  /* line 590, ../scss/_custom.scss */
   .main-content-area h5 {
     font-size: 1.75em;
   }
-  /* line 607, ../scss/_custom.scss */
+  /* line 595, ../scss/_custom.scss */
   .main-content-area .black {
     padding: 0;
   }
 }
 /* min-width 1025px, large screens */
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
-  /* line 618, ../scss/_custom.scss */
+  /* line 606, ../scss/_custom.scss */
   .main-content-area .home-page-main-header, .main-content-area h1 {
     font-variant: normal;
     line-height: 1.3em;
   }
 
-  /* line 627, ../scss/_custom.scss */
+  /* line 615, ../scss/_custom.scss */
   footer a {
     font-variant: normal;
   }
