@@ -1949,7 +1949,7 @@ meta.foundation-mq-topbar {
 /* line 1286, ../scss/_foundation.scss */
 .top-bar .name span a {
   font-weight: normal;
-  color: #c8ffff;
+  color: white;
   display: block;
   padding: 0 15px;
 }
@@ -1963,7 +1963,7 @@ meta.foundation-mq-topbar {
 
 /* line 1296, ../scss/_foundation.scss */
 .top-bar .toggle-topbar a {
-  color: #c8ffff;
+  color: white;
   text-transform: uppercase;
   font-size: 0.8125rem;
   font-weight: bold;
@@ -1988,7 +1988,7 @@ meta.foundation-mq-topbar {
   line-height: 33px;
   padding: 0;
   padding-right: 25px;
-  color: #c8ffff;
+  color: white;
   position: relative;
 }
 
@@ -2001,7 +2001,7 @@ meta.foundation-mq-topbar {
   width: 16px;
   top: 0;
   height: 0;
-  box-shadow: 0 10px 0 1px #c8ffff, 0 16px 0 1px #c8ffff, 0 22px 0 1px #c8ffff;
+  box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white;
 }
 
 /* line 1327, ../scss/_foundation.scss */
@@ -2056,7 +2056,7 @@ meta.foundation-mq-topbar {
 .top-bar-section ul li > a {
   display: block;
   width: 100%;
-  color: #c8ffff;
+  color: white;
   padding: 12px 0 12px 0;
   padding-left: 15px;
   font-family: "Open Sans", sans-serif, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -2071,7 +2071,7 @@ meta.foundation-mq-topbar {
   font-size: 0.8125rem;
   padding-right: 15px;
   padding-left: 15px;
-  background-color: #006cff;
+  background-color: #49aefd;
   border-color: #007095;
   color: white;
 }
@@ -2216,14 +2216,14 @@ meta.foundation-mq-topbar {
 
 /* line 1439, ../scss/_foundation.scss */
 .top-bar-section ul li.active > a {
-  background: #006cff;
-  color: #c8ffff;
+  background: #49aefd;
+  color: white;
 }
 
 /* line 1442, ../scss/_foundation.scss */
 .top-bar-section ul li.active > a:hover {
-  background: #0058eb;
-  color: #c8ffff;
+  background: #359ae9;
+  color: white;
 }
 
 /* line 1445, ../scss/_foundation.scss */
@@ -2443,12 +2443,12 @@ meta.foundation-mq-topbar {
     padding: 0 15px;
     line-height: 45px;
     color: white;
-    background: #006cff;
+    background: #49aefd;
   }
 
   /* line 1570, ../scss/_foundation.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button):hover {
-    background: #7e8600;
+    background: #666666;
   }
 
   /* line 1572, ../scss/_foundation.scss */
@@ -7130,12 +7130,12 @@ textarea.radius {
 /* line 4504, ../scss/_foundation.scss */
 input[type="submit"] {
   -webkit-appearance: none;
-  color: #c8ffff;
-  background-color: #7e8600;
+  color: white;
+  background-color: #666666;
   font-weight: bold;
   font-variant: small-caps;
   font-style: inherit;
-  border: 1px solid #c8ffff;
+  border: 1px solid white;
 }
 
 /* Respect enforced amount of rows for textarea */
@@ -8906,7 +8906,7 @@ textarea {
 input[type=submit] {
   display: inline-block;
   width: 100%;
-  background: #006cff;
+  background: #49aefd;
   font-size: 2.25em;
   padding: 0 0 0 1em 0;
   line-height: 1.3em;
@@ -8925,7 +8925,7 @@ input[type=submit] {
 /* line 41, ../scss/_custom.scss */
 .button {
   display: block;
-  background: #006cff;
+  background: #49aefd;
   font-weight: 300;
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 2em;
@@ -8938,7 +8938,7 @@ input[type=submit] {
 .button:hover {
   transition: opacity 0.25s ease;
   opacity: .8;
-  background: #0058eb;
+  background: #359ae9;
 }
 
 /* line 61, ../scss/_custom.scss */
@@ -8948,7 +8948,7 @@ input[type=submit] {
   -o-transition: background-color 250ms, color 250ms;
   transition: background-color 250ms, color 250ms;
   display: block;
-  background-color: #006cff;
+  background-color: #49aefd;
   color: white;
   padding: .75em 0;
   border-radius: .3em;
@@ -8963,8 +8963,8 @@ input[type=submit] {
   -o-transition: background-color 250ms, color 250ms;
   transition: background-color 250ms, color 250ms;
   background-color: white;
-  color: #1480ff;
-  border: 2px solid #1480ff;
+  color: #5dc2ff;
+  border: 2px solid #5dc2ff;
 }
 
 /* line 87, ../scss/_custom.scss */
@@ -8980,27 +8980,27 @@ input[type=submit] {
 
 /* line 98, ../scss/_custom.scss */
 .home-page {
-  background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-home-page.png);
+  background-image: url(../img/jetti-digital-menus-restaurant-tablet-menu-home-page.png);
 }
 
 /* line 103, ../scss/_custom.scss */
 .specials-page {
-  background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-specials-page.png);
+  background-image: url(../img/jetti-digital-menus-restaurant-tablet-menu-specials-page.png);
 }
 
 /* line 108, ../scss/_custom.scss */
 .category-page {
-  background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-category-page.png);
+  background-image: url(../img/jetti-digital-menus-restaurant-tablet-menu-category-page.png);
 }
 
 /* line 113, ../scss/_custom.scss */
 .item-detail-page {
-  background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-item-detail.png);
+  background-image: url(../img/jetti-digital-menus-restaurant-tablet-menu-item-detail.png);
 }
 
 /* line 118, ../scss/_custom.scss */
 .remembered-page {
-  background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-remembered-items.png);
+  background-image: url(../img/jetti-digital-menus-restaurant-tablet-menu-remembered-items.png);
 }
 
 /* line 123, ../scss/_custom.scss */
@@ -9050,7 +9050,7 @@ input[type=submit] {
 /* line 177, ../scss/_custom.scss */
 .main-content-area .home-page-main-header {
   display: block;
-  color: white;
+  color: #49aefd;
   font-size: 2.5em;
   padding: 0;
 }
@@ -9127,14 +9127,14 @@ input[type=submit] {
   font-size: 3em;
   font-variant: small-caps;
   line-height: 1em;
-  color: #006cff;
+  color: #49aefd;
 }
 /* line 266, ../scss/_custom.scss */
 .main-content-area h2 {
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: 900;
   font-size: 1.75em;
-  color: #006cff;
+  color: #49aefd;
   /*
   font-variant: small-caps;
   */
@@ -9155,7 +9155,7 @@ input[type=submit] {
 .main-content-area .callout h3 {
   font-weight: 300;
   font-family: "Open Sans Condensed", sans-serif;
-  color: #006cff;
+  color: #49aefd;
   font-size: 1.75em;
 }
 
@@ -9192,14 +9192,14 @@ footer ul {
 }
 /* line 327, ../scss/_custom.scss */
 footer a {
-  color: #006cff;
+  color: #49aefd;
   font-size: 1em;
   font-variant: small-caps;
   font-weight: 300;
 }
 /* line 335, ../scss/_custom.scss */
 footer a:hover {
-  color: #7e8600;
+  color: #666666;
 }
 
 /* MEDIUM STYLES */
@@ -9223,27 +9223,27 @@ footer a:hover {
 
   /* line 366, ../scss/_custom.scss */
   .home-page {
-    background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-home-page.png);
+    background-image: url(../img/jetti-digital-menus-restaurant-tablet-menu-home-page.png);
   }
 
   /* line 371, ../scss/_custom.scss */
   .specials-page {
-    background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-specials-page.png);
+    background-image: url(../img/jetti-digital-menus-restaurant-tablet-menu-specials-page.png);
   }
 
   /* line 376, ../scss/_custom.scss */
   .category-page {
-    background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-category-page.png);
+    background-image: url(../img/jetti-digital-menus-restaurant-tablet-menu-category-page.png);
   }
 
   /* line 381, ../scss/_custom.scss */
   .item-detail-page {
-    background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-item-detail.png);
+    background-image: url(../img/jetti-digital-menus-restaurant-tablet-menu-item-detail.png);
   }
 
   /* line 386, ../scss/_custom.scss */
   .remembered-page {
-    background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-remembered-items.png);
+    background-image: url(../img/jetti-digital-menus-restaurant-tablet-menu-remembered-items.png);
   }
 
   /* line 391, ../scss/_custom.scss */
@@ -9329,27 +9329,27 @@ footer a:hover {
 
   /* line 491, ../scss/_custom.scss */
   .home-page {
-    background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-home-page.png);
+    background-image: url(../img/jetti-digital-menus-restaurant-tablet-menu-home-page.png);
   }
 
   /* line 496, ../scss/_custom.scss */
   .specials-page {
-    background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-specials-page.png);
+    background-image: url(../img/jetti-digital-menus-restaurant-tablet-menu-specials-page.png);
   }
 
   /* line 501, ../scss/_custom.scss */
   .category-page {
-    background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-category-page.png);
+    background-image: url(../img/jetti-digital-menus-restaurant-tablet-menu-category-page.png);
   }
 
   /* line 506, ../scss/_custom.scss */
   .item-detail-page {
-    background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-item-detail.png);
+    background-image: url(../img/jetti-digital-menus-restaurant-tablet-menu-item-detail.png);
   }
 
   /* line 511, ../scss/_custom.scss */
   .remembered-page {
-    background-image: url(../img/atlas-digital-menus-restaurant-tablet-menu-remembered-items.png);
+    background-image: url(../img/jetti-digital-menus-restaurant-tablet-menu-remembered-items.png);
   }
 
   /* line 516, ../scss/_custom.scss */

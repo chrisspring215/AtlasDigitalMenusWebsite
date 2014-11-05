@@ -40,7 +40,7 @@ input[type=submit]
 .button
 {
 	display: block;
-	background: #006cff;
+	background: $orange;
 	font-weight: 300;
 	font-family: $header;
 	font-size: 2em;
@@ -54,7 +54,7 @@ input[type=submit]
 {
 	transition: opacity 0.25s ease;
 	opacity: .8;
-	background: #006cff - 20;
+	background: $orange - 20;
 }
 
 .header-button
@@ -96,27 +96,27 @@ input[type=submit]
 
 .home-page
 {
-	background-image:url(../img/atlas-digital-menus-restaurant-tablet-menu-home-page.png); 
+	background-image:url(../img/jetti-digital-menus-restaurant-tablet-menu-home-page.png); 
 }
 
 .specials-page
 {
-	background-image:url(../img/atlas-digital-menus-restaurant-tablet-menu-specials-page.png); 
+	background-image:url(../img/jetti-digital-menus-restaurant-tablet-menu-specials-page.png); 
 }
 
 .category-page
 {
-	background-image:url(../img/atlas-digital-menus-restaurant-tablet-menu-category-page.png); 
+	background-image:url(../img/jetti-digital-menus-restaurant-tablet-menu-category-page.png); 
 }
 
 .item-detail-page
 {
-	background-image:url(../img/atlas-digital-menus-restaurant-tablet-menu-item-detail.png);
+	background-image:url(../img/jetti-digital-menus-restaurant-tablet-menu-item-detail.png);
 }
 
 .remembered-page
 {
-	background-image:url(../img/atlas-digital-menus-restaurant-tablet-menu-remembered-items.png); 
+	background-image:url(../img/jetti-digital-menus-restaurant-tablet-menu-remembered-items.png); 
 }
 
 .screenshot:hover
@@ -176,7 +176,7 @@ box-shadow:         0px 0px 30px 0px rgba(50, 50, 50, 0.36);
 	.home-page-main-header
 	{
 		display: block;
-		color: $white;
+		color: $orange;
 		font-size: 2.5em;
 		padding: 0;
 	}
@@ -364,27 +364,27 @@ footer
 
 .home-page
 {
-	background-image:url(../img/atlas-digital-menus-restaurant-tablet-menu-home-page.png); 
+	background-image:url(../img/jetti-digital-menus-restaurant-tablet-menu-home-page.png); 
 }
 
 .specials-page
 {
-	background-image:url(../img/atlas-digital-menus-restaurant-tablet-menu-specials-page.png); 
+	background-image:url(../img/jetti-digital-menus-restaurant-tablet-menu-specials-page.png); 
 }
 
 .category-page
 {
-	background-image:url(../img/atlas-digital-menus-restaurant-tablet-menu-category-page.png); 
+	background-image:url(../img/jetti-digital-menus-restaurant-tablet-menu-category-page.png); 
 }
 
 .item-detail-page
 {
-	background-image:url(../img/atlas-digital-menus-restaurant-tablet-menu-item-detail.png); 
+	background-image:url(../img/jetti-digital-menus-restaurant-tablet-menu-item-detail.png); 
 }
 
 .remembered-page
 {
-	background-image:url(../img/atlas-digital-menus-restaurant-tablet-menu-remembered-items.png); 
+	background-image:url(../img/jetti-digital-menus-restaurant-tablet-menu-remembered-items.png); 
 }
 
 .screenshot:hover
@@ -489,27 +489,27 @@ footer
 
 .home-page
 {
-	background-image:url(../img/atlas-digital-menus-restaurant-tablet-menu-home-page.png); 
+	background-image:url(../img/jetti-digital-menus-restaurant-tablet-menu-home-page.png); 
 }
 
 .specials-page
 {
-	background-image:url(../img/atlas-digital-menus-restaurant-tablet-menu-specials-page.png); 
+	background-image:url(../img/jetti-digital-menus-restaurant-tablet-menu-specials-page.png); 
 }
 
 .category-page
 {
-	background-image:url(../img/atlas-digital-menus-restaurant-tablet-menu-category-page.png); 
+	background-image:url(../img/jetti-digital-menus-restaurant-tablet-menu-category-page.png); 
 }
 
 .item-detail-page
 {
-	background-image:url(../img/atlas-digital-menus-restaurant-tablet-menu-item-detail.png); 
+	background-image:url(../img/jetti-digital-menus-restaurant-tablet-menu-item-detail.png); 
 }
 
 .remembered-page
 {
-	background-image:url(../img/atlas-digital-menus-restaurant-tablet-menu-remembered-items.png); 
+	background-image:url(../img/jetti-digital-menus-restaurant-tablet-menu-remembered-items.png); 
 }
 
 .screenshot:hover
