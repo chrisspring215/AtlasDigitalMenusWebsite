@@ -12,7 +12,7 @@ $subject = 'New Affilate Contact';
 $message = 'CONTACT NAME: ' . $contact_name . "\n" . 'COMPANY: ' . $contact_company . "\n" . 'WEBSITE: ' . $contact_website . "\n" . 'PHONE: ' . $contact_phone . "\n" . 'EMAIL: ' . $contact_email . "\n" . 'MESSAGE: ' . $contact_message;
 
 mail ($to, $subject, $message, 'From: ' . $contact_name);
-header("Location: http://www.atlasmenu.com/affil-contact-thank-you.html");
+header("Location: http://www.jettisystems.com/affil-contact-thank-you.html");
 
 ?>
 

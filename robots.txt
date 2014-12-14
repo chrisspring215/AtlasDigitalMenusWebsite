@@ -1,9 +1,11 @@
 # www.robotstxt.org/
 # www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
 
-Sitemap: http://www.atlasmenu.com/sitemap.xml
+Sitemap: http://www.jettisystems.com/sitemap.xml
 
 User-agent: *
 Disallow: /menu-demo.html
 Disallow: /affilcontact-thank-you.html‎
+Disallow: /resources
+Disallow: /photo-production
 
